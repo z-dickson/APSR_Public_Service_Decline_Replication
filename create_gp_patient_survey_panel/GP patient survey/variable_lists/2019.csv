@@ -1,0 +1,936 @@
+Variable,Description
+Practice_Code,Practice code
+Practice_Name,Practice name
+Region_Name,Local NHS England region
+CCG_Code,CCG code
+CCG_Name,CCG Name
+distributed,Total survey forms distributed
+received,Total completed forms received
+resprate,Response rate
+Q3base,Ease of getting through to someone at GP practice on the phone - Total responses
+Q3_1,Ease of getting through to someone at GP practice on the phone - Very easy
+Q3_2,Ease of getting through to someone at GP practice on the phone - Fairly easy
+Q3_3,Ease of getting through to someone at GP practice on the phone - Not very easy
+Q3_4,Ease of getting through to someone at GP practice on the phone - Not at all easy
+Q3_5,Ease of getting through to someone at GP practice on the phone - Haven't tried
+Q3_1234base,Ease of getting through to someone at GP practice on the phone - Base for summary result - Total responses excluding 'haven't tried'
+Q3_12,"Ease of getting through to someone at GP practice on the phone - Summary result - Easy (Combined 'very easy' and 'fairly easy' responses, to be used with base excluding 'haven't tried')"
+Q4base,Helpfulness of receptionists at GP practice - Total responses
+Q4_1,Helpfulness of receptionists at GP practice - Very helpful
+Q4_2,Helpfulness of receptionists at GP practice - Fairly helpful
+Q4_3,Helpfulness of receptionists at GP practice - Not very helpful
+Q4_4,Helpfulness of receptionists at GP practice - Not at all helpful
+Q4_5,Helpfulness of receptionists at GP practice - Don't know
+Q4_1234base,Helpfulness of receptionists at GP practice - Base for summary result - Total responses excluding 'don't know'
+Q4_12,"Helpfulness of receptionists at GP practice - Summary result - Helpful (Combined 'very helpful' and 'fairly helpful' responses, to be used with base excluding 'don't know')"
+Q72base,Method of booking general practice appointment in the past 12 months - Total responses
+Q72_1,Method of booking general practice appointment in the past 12 months - In person
+Q72_2,Method of booking general practice appointment in the past 12 months - By phone
+Q72_3,Method of booking general practice appointment in the past 12 months - By automated telephone booking
+Q72_4,Method of booking general practice appointment in the past 12 months - Online including on an app
+Q72_5,"Method of booking general practice appointment in the past 12 months - Via another route, such as NHS 111"
+Q72_6,Method of booking general practice appointment in the past 12 months - Doesn’t apply / none of these
+Q63base,Online services patients are aware are offered by their GP practice - Total responses
+Q63_1,Online services patients are aware are offered by their GP practice -  Booking appointments online
+Q63_2,Online services patients are aware are offered by their GP practice -  Ordering repeat prescriptions online
+Q63_3,Online services patients are aware are offered by their GP practice -  Accessing medical records online
+Q63_4,Online services patients are aware are offered by their GP practice -  None of these
+Q63_5,Online services patients are aware are offered by their GP practice -  Don't know
+Q64base,Use of general practice online services in past 12 months - Total responses
+Q64_1,Use of general practice online services in past 12 months - Booking appointments online
+Q64_2,Use of general practice online services in past 12 months - Ordering repeat prescriptions online
+Q64_3,Use of general practice online services in past 12 months - Accessing medical records online
+Q64_4,Use of general practice online services in past 12 months - None of these
+Q73base,Ease of using your GP practice’s website to look for information or access services - Total responses
+Q73_1,Ease of using your GP practice’s website to look for information or access services - Very easy
+Q73_2,Ease of using your GP practice’s website to look for information or access services - Fairly easy
+Q73_3,Ease of using your GP practice’s website to look for information or access services - Not very easy
+Q73_4,Ease of using your GP practice’s website to look for information or access services - Not at all easy
+Q73_5,Ease of using your GP practice’s website to look for information or access services - Haven't tried
+Q73_1234base,Ease of using GP practice's website to look for information or access services - Base for summary result - Total responses excluding 'haven't tried'
+Q73_12,"Ease of using your GP practice’s website to look for information or access services - Summary result - Easy (Combined 'very easy' and 'fairly easy', to be used with base excluding 'haven't tried')"
+Q74base,Awareness of general practice appointment times - Total responses
+Q74_1,Awareness of  general practice appointment times - Before 8am on at least one weekday
+Q74_2,Awareness of  general practice appointment times - Weekdays between 8am and 6.30pm
+Q74_3,Awareness of  general practice appointment times - After 6.30pm on a weekday
+Q74_4,Awareness of  general practice appointment times - On a Saturday
+Q74_5,Awareness of  general practice appointment times - On a Sunday
+Q74_6,Awareness of  general practice appointment times - Don’t know
+Q25base,Satisfaction with general practice appointment times  - Total responses
+Q25_1,Satisfaction with general practice appointment times - Very satisfied
+Q25_2,Satisfaction with general practice appointment times - Fairly satisfied
+Q25_3,Satisfaction with general practice appointment times - Neither satisfied nor dissatisfied
+Q25_4,Satisfaction with general practice appointment times - Fairly dissatisfied
+Q25_5,Satisfaction with general practice appointment times  - Very dissatisfied
+Q25_6,Satisfaction with general practice appointment times - I'm not sure when I can get an appointment
+Q25_12345base,Satisfaction with general practice appointment times - Base for summary result - Total responses excluding 'I'm not sure when I can get an appointment'
+Q25_12,"Satisfaction with general practice appointment times  - Summary result - Satisfied (Combined 'very satisfied' and 'fairly satisfied', to be used with base excluding 'I'm not sure when I can get an appointment')"
+Q8base,Have a preferred GP - Total responses
+Q8_1,Have a preferred GP - Yes
+Q8_4,"Have a preferred GP - Yes, for some appointments but not others"
+Q8_2,Have a preferred GP - No
+Q8_3,Have a preferred GP - There is usually only one GP in my GP practice
+Q8_124base,Have a preferred GP - Base for summary result - Total responses excluding 'there is usually only one GP in my GP practice'
+Q8_14,"Have a preferred GP - Summary result - Yes (Combined 'yes' and 'Yes, for some appointments but not others' responses, to be used with base excluding 'there is usually only one GP in my GP practice')"
+Q9base,Frequency of seeing preferred GP - Total responses
+Q9_1,Frequency of seeing preferred GP - Always or almost always
+Q9_2,Frequency of seeing preferred GP - A lot of the time
+Q9_3,Frequency of seeing preferred GP - Some of the time
+Q9_4,Frequency of seeing preferred GP - Never or almost never
+Q9_5,Frequency of seeing preferred GP - I have not tried
+Q9_1234base,Frequency of seeing preferred GP - Base for summary result - Total responses excluding 'I have not tried'
+Q9_12,"Frequency of seeing preferred GP - Summary result - Always, almost always or a lot of the time (combined 'always or almost always' and 'a lot of the time' responses, to be used with base excluding 'I have not tried')"
+Q75base,"When last tried to make a general practice appointment, for self or for someone else - Total responses"
+Q75_1,"When last tried to make a general practice appointment, for self or for someone else - In the past 3 months"
+Q75_2,"When last tried to make a general practice appointment, for self or for someone else - Between 3 and 6 months ago"
+Q75_3,"When last tried to make a general practice appointment, for self or for someone else - Between 6 and 12 months ago"
+Q75_4,"When last tried to make a general practice appointment, for self or for someone else - More than 12 months ago"
+Q75_5,"When last tried to make a general practice appointment, for self or for someone else - Don’t know"
+Q75_6,"When last tried to make a general practice appointment, for self or for someone else - I haven’t tried to make an appointment since being registered with my current GP practice"
+Q75_12346base,Last tried to make general practice appointment - Base for summary result - Total responses excluding 'don't know'
+Q75_12,"When last tried to make a general practice appointment, for self or for someone else - Summary result - In the past 6 months (Combined 'in the past 3 months' and 'between 3 and 6 months ago', to be used with base excluding 'don't know')"
+Q76base,Who appointment was for - Total responses
+Q76_1,Who appointment was for - Me
+Q76_2,Who appointment was for - A child under 16
+Q76_3,Who appointment was for - An adult aged 16 or over who I am a carer for
+Q76_4,Who appointment was for - Another adult aged 16 or over (including family members)
+Q77base,"Concern about health, or  health of the person making appointment for - Total responses"
+Q77_1,"Concern about health, or  health of the person making appointment for - Very concerned"
+Q77_2,"Concern about health, or  health of the person making appointment for - Fairly concerned"
+Q77_3,"Concern about health, or  health of the person making appointment for - Not very concerned"
+Q77_4,"Concern about health, or  health of the person making appointment for - Not at all concerned"
+Q77_5,"Concern about health, or  health of the person making appointment for - Can’t remember"
+Q77_1234base,"Concern about health, or  health of the person making appointment for - Base for summary result - Total responses excluding 'can't remember'"
+Q77_12,"Concern about health, or  health of the person making appointment for - Summary result - Concerned (Combined 'very concerned' and 'fairly concerned' responses, to be used with base excluding 'can't remember')"
+Q78base,Actions taken before trying to get an appointment - Total responses
+Q78_1,Actions taken before trying to get an appointment - I looked for information online
+Q78_2,Actions taken before trying to get an appointment - Spoke to a pharmacist
+Q78_3,Actions taken before trying to get an appointment - Tried to treat myself / the person I was making this appointment for (for example with medication)
+Q78_4,"Actions taken before trying to get an appointment - Called an NHS helpline, such as NHS 111"
+Q78_5,Actions taken before trying to get an appointment  - Went to or contacted another NHS service
+Q78_6,Actions taken before trying to get an appointment - Asked for advice from a friend or family member
+Q78_7,Actions taken before trying to get an appointment - Tried to get information or advice elsewhere (from a non-NHS service)
+Q78_8,Actions taken before trying to get an appointment - I did not try to get information or advice
+Q11base,When would you have liked this appointment to be - Total responses
+Q11_1,When would you have liked this appointment to be - On the same day
+Q11_2,When would you have liked this appointment to be - On the next day
+Q11_3,When would you have liked this appointment to be - A few days later
+Q11_4,When would you have liked this appointment to be  - A week or more later
+Q11_5,When would you have liked this appointment to be  - I didn't have a specific day in mind
+Q11_6,When would you have liked this appointment to be  - Can't remember
+Q79base,Whether offered a choice of appointment - Total responses
+Q79_1,"Whether offered a choice of appointment- Yes, a choice of place"
+Q79_2,"Whether offered a choice of appointment - Yes, a choice of time or day"
+Q79_3,"Whether offered a choice of appointment - Yes, a choice of healthcare professional"
+Q79_4,"Whether offered a choice of appointment - No, I was not offered a choice of appointment"
+Q79_5,Whether offered a choice of appointment - Can’t remember
+Q79_6,Whether offered a choice of appointment - Doesn’t apply
+Q79_1234base,Whether offered a choice of appointment - Base for summary result - Total responses excluding 'can't remember' and 'doesn't apply'
+Q79_123,"Whether offered a choice of appointment- Summary result - Yes (Combined 'yes, a choice of place' 'yes, a choice of time or day' and 'yes, a choice of healthcare professional' responses, to be used with base excluding 'can't remember' and 'doesn't apply')"
+Q80base,Satisfaction with type of appointment offered - Total responses
+Q80_1,"Satisfaction with type of appointment offered - Yes, and I accepted an appointment"
+Q80_2,"Satisfaction with type of appointment offered - No, but I still took an appointment"
+Q80_3,"Satisfaction with type of appointment offered - No, and I did not take an appointment"
+Q80_12,"Satisfaction with type of appointment offered - Summary result - Accepted appointment (Combined 'yes, and I accepted an appointment' and 'no, but I still took an appointment' responses)"
+Q81base,Reason for not taking appointments offered - Total responses
+Q81_1,Reason for not taking appointments offered - There weren’t any appointments available for the time or day I wanted
+Q81_2,Reason for not taking appointments offered - The appointment was at too short notice
+Q81_3,Reason for not taking appointments offered - The appointment wasn’t soon enough
+Q81_4,Reason for not taking appointments offered -  I couldn’t book ahead at my GP practice
+Q81_5,Reason for not taking appointments offered - There weren’t any appointments at the place I wanted
+Q81_6,Reason for not taking appointments offered - The appointment was too far away / too difficult to get to
+Q81_7,Reason for not taking appointments offered - I couldn’t see my preferred GP
+Q81_8,Reason for not taking appointments offered - There weren’t any appointments with the healthcare professional I wanted
+Q81_9,Reason for not taking appointments offered - The type of appointment I wanted was not available
+Q81_10,Reason for not taking appointments offered - Another reason
+Q82base,Action after not accepting appointment offered - Total responses
+Q82_1,Action after not accepting appointment offered - Got an appointment for a different day
+Q82_2,"Action after not accepting appointment offered - Called an NHS helpline, such as NHS 111"
+Q82_3,Action after not accepting appointment offered - Went to A&E
+Q82_4,Action after not accepting appointment offered - Spoke to a pharmacist
+Q82_5,Action after not accepting appointment offered - Went to or contacted another NHS service
+Q82_6,Action after not accepting appointment offered - Decided to contact my practice another time
+Q82_7,Action after not accepting appointment offered - Looked for information online
+Q82_8,Action after not accepting appointment offered - Spoke to a friend or family member
+Q82_9,Action after not accepting appointment offered - Didn’t see or speak to anyone
+Q13_NEWbase,Type of appointment received - Total responses
+Q13_NEW_1,Type of appointment received - To speak to someone on the phone
+Q13_NEW_2,Type of appointment received - To see someone at my GP practice
+Q13_NEW_3,Type of appointment received - To see someone at another general practice location
+Q13_NEW_4,"Type of appointment received - To speak to someone online, for example on a video call"
+Q13_NEW_5,Type of appointment received - For a home visit
+Q14base,How long until the appointment took place - Total responses
+Q14_1,How long until the appointment took place - On the same day
+Q14_2,How long until the appointment took place - On the next day
+Q14_3,How long until the appointment took place - A few days later
+Q14_4,How long until the appointment took place - A week or more later
+Q14_5,How long until the appointment took place - Can't remember
+Q18base,Overall experience of making an appointment - Total responses
+Q18_1,Overall experience of making an appointment - Very good
+Q18_2,Overall experience of making an appointment - Fairly good
+Q18_3,Overall experience of making an appointment - Neither good nor poor
+Q18_4,Overall experience of making an appointment - Fairly poor
+Q18_5,Overall experience of making an appointment - Very poor
+Q18_12345base,Overall experience of making an appointment - Base for summary result - Total responses
+Q18_12,"Overall experience of making an appointment - Summary result - Good (Combined 'very good' and 'fairly good' responses, to be used with base for summary result)"
+Q83base,When last general practice appointment was - Total responses
+Q83_1,When last general practice appointment was - In the past 3 months
+Q83_2,When last general practice appointment was - Between 3 and 6 months ago
+Q83_3,When last general practice appointment was - Between 6 and 12 months ago
+Q83_4,When last general practice appointment was - More than 12 months ago
+Q83_5,When last general practice appointment was - I haven’t had an appointment since being registered with my current GP practice
+Q83_12345base,When last general practice appointment was - Base for summary result - Total responses
+Q83_12,"When last general practice appointment was - Summary result - In the past 6 months (Combined 'in the past 3 months' and 'between 3 and 6 months ago' responses, to be used with base for summary result)"
+Q84base,Who last general practice appointment was with - Total responses
+Q84_1,Who last general practice appointment was with - A GP
+Q84_2,Who last general practice appointment was with - A nurse
+Q84_3,Who last general practice appointment was with - A general practice pharmacist
+Q84_4,Who last general practice appointment was with - A mental health professional
+Q84_5,Who last general practice appointment was with - Another healthcare professional
+Q84_6,Who last general practice appointment was with - Don’t know / not sure who I saw
+Q85base,How long was the wait after appointment time to see or speak to the healthcare professional - Total responses
+Q85_1,How long was the wait after appointment time to see or speak to the healthcare professional - 5 minutes or less
+Q85_2,How long was the wait after appointment time to see or speak to the healthcare professional - Between 5 and 15 minutes
+Q85_3,How long was the wait after appointment time to see or speak to the healthcare professional - 15 to 30 minutes
+Q85_4,How long was the wait after appointment time to see or speak to the healthcare professional - More than 30 minutes
+Q85_5,How long was the wait after appointment time to see or speak to the healthcare professional - I didn’t have an appointment at a set time
+Q85_6,How long was the wait after appointment time to see or speak to the healthcare professional - Can’t remember
+Q85_1234base,How long was the wait after appointment time to see or speak to the healthcare professional - Base for summary result - Total responses excluding 'I didn't have an appointment at a set time' and 'can’t remember'
+Q85_12,"How long was the wait after appointment time to see or speak to the healthcare professional - Summary result - 15 minutes or less (Combined '5 minutes or less' and 'between 5 and 15 minutes' responses, to be used with base excluding 'I didn't have an appointment at a set time' and 'can't remember')"
+Q86abase,"Last time you had a general practice appointment, how good was the healthcare professional at: Giving you enough time - Total responses"
+Q86a_1,"Last time you had a general practice appointment, how good was the healthcare professional at: Giving you enough time - Very good"
+Q86a_2,"Last time you had a general practice appointment, how good was the healthcare professional at: Giving you enough time - Good"
+Q86a_3,"Last time you had a general practice appointment, how good was the healthcare professional at: Giving you enough time - Neither good nor poor"
+Q86a_4,"Last time you had a general practice appointment, how good was the healthcare professional at: Giving you enough time - Poor"
+Q86a_5,"Last time you had a general practice appointment, how good was the healthcare professional at: Giving you enough time - Very poor"
+Q86a_6,"Last time you had a general practice appointment, how good was the healthcare professional at: Giving you enough time - Doesn't apply"
+Q86a_12345base,"Last time you had a general practice appointment, how good was the healthcare professional at: Giving you enough time - Base for summary result - Total responses excluding 'doesn't apply'"
+Q86a_12,"Last time you had a general practice appointment, how good was the healthcare professional at: Giving you enough time - Summary result - Good (Combined 'very good' and 'good' responses, to be used with base excluding 'doesn't apply')"
+Q86bbase,"Last time you had a general practice appointment, how good was the healthcare professional at: Listening to you - Total responses"
+Q86b_1,"Last time you had a general practice appointment, how good was the healthcare professional at: Listening to you - Very good"
+Q86b_2,"Last time you had a general practice appointment, how good was the healthcare professional at: Listening to you - Good"
+Q86b_3,"Last time you had a general practice appointment, how good was the healthcare professional at: Listening to you - Neither good nor poor"
+Q86b_4,"Last time you had a general practice appointment, how good was the healthcare professional at: Listening to you - Poor"
+Q86b_5,"Last time you had a general practice appointment, how good was the healthcare professional at: Listening to you - Very poor"
+Q86b_6,"Last time you had a general practice appointment, how good was the healthcare professional at: Listening to you - Doesn't apply"
+Q86b_12345base,"Last time you had a general practice appointment, how good was the healthcare professional at: Listening to you - Base for summary result - Total responses excluding 'doesn't apply'"
+Q86b_12,"Last time you had a general practice appointment, how good was the healthcare professional at: Listening to you - Summary result - Good (Combined 'very good' and 'good' responses, to be used with base excluding 'doesn't apply')"
+Q86ebase,"Last time you had a general practice appointment, how good was the healthcare professional at: Treating you with care and concern - Total responses"
+Q86e_1,"Last time you had a general practice appointment, how good was the healthcare professional at: Treating you with care and concern - Very good"
+Q86e_2,"Last time you had a general practice appointment, how good was the healthcare professional at: Treating you with care and concern - Good"
+Q86e_3,"Last time you had a general practice appointment, how good was the healthcare professional at: Treating you with care and concern - Neither good nor poor"
+Q86e_4,"Last time you had a general practice appointment, how good was the healthcare professional at: Treating you with care and concern - Poor"
+Q86e_5,"Last time you had a general practice appointment, how good was the healthcare professional at: Treating you with care and concern - Very poor"
+Q86e_6,"Last time you had a general practice appointment, how good was the healthcare professional at: Treating you with care and concern - Doesn't apply"
+Q86e_12345base,"Last time you had a general practice appointment, how good was the healthcare professional at: Treating you with care and concern - Base for summary result - Total responses excluding 'doesn't apply'"
+Q86e_12,"Last time you had a general practice appointment, how good was the healthcare professional at: Treating you with care and concern - Summary result - Good (Combined 'very good' and 'good' responses, to be used with base excluding 'doesn't apply')"
+Q87base,"During last general practice appointment, healthcare professional recognised and/or understood mental health needs - Total responses"
+Q87_1,"During last general practice appointment, healthcare professional recognised and/or understood mental health needs - Yes, definitely"
+Q87_2,"During last general practice appointment, healthcare professional recognised and/or understood mental health needs - Yes, to some extent"
+Q87_3,"During last general practice appointment, healthcare professional recognised and/or understood mental health needs - No, not at all"
+Q87_4,"During last general practice appointment, healthcare professional recognised and/or understood mental health needs - I did not have any mental health needs"
+Q87_5,"During last general practice appointment, healthcare professional recognised and/or understood mental health needs - Did not apply to my last appointment"
+Q87_123base,"During last general practice appointment, healthcare professional recognised and/or understood mental health needs- Base for summary result - Total responses excluding 'I did not have any mental health needs' and 'Did not apply to my last appointment'"
+Q87_12,"During last general practice appointment, healthcare professional recognised and/or understood mental health needs - Summary result - Yes (Combined 'yes, definitely' and 'Yes, to some extent' responses, to be used with base excluding 'I did not have any mental health needs' and 'Did not apply to my last appointment')"
+Q88base,"During last general practice appointment, involved as much as they wanted to be in decisions about care and treatment - Total responses"
+Q88_1,"During last general practice appointment, involved as much as they wanted to be in decisions about care and treatment - Yes, definitely"
+Q88_2,"During last general practice appointment, involved as much as they wanted to be in decisions about care and treatment - Yes, to some extent"
+Q88_3,"During last general practice appointment, involved as much as they wanted to be in decisions about care and treatment - No, not at all"
+Q88_4,"During last general practice appointment, involved as much as they wanted to be in decisions about care and treatment - Don’t know / doesn’t apply"
+Q88_123base,"During last general practice appointment, involved as much as they wanted to be in decisions about care and treatment - Base for summary result - Total responses excluding 'don't know / doesn't apply'"
+Q88_12,"During last general practice appointment, involved as much as they wanted to be in decisions about care and treatment - Summary result - Yes (Combined 'yes, definitely' and 'yes, to some extent' responses, to be used with base excluding 'don't know / doesn't apply')"
+Q89base,"During last general practice appointment, had confidence and trust in healthcare professional - Total responses"
+Q89_1,"During last general practice appointment, had confidence and trust in healthcare professional  - Yes, definitely"
+Q89_2,"During last general practice appointment, had confidence and trust in healthcare professional  - Yes, to some extent"
+Q89_3,"During last general practice appointment, had confidence and trust in healthcare professional  - No, not at all"
+Q89_4,"During last general practice appointment, had confidence and trust in healthcare professional  - Don’t know / can’t say"
+Q89_123base,"During last general practice appointment, had confidence and trust in healthcare professional  - Base for summary result - Total responses excluding 'don't know / can't say'"
+Q89_12,"During last general practice appointment, had confidence and trust in healthcare professional - Summary result - Yes (Combined 'yes, definitely' and 'yes, to some extent' responses, to be used with base excluding 'don't know / can't say')"
+Q90base,Needs met at last general practice appointment - Total responses
+Q90_1,"Needs met at last general practice appointment - Yes, definitely"
+Q90_2,"Needs met at last general practice appointment - Yes, to some extent"
+Q90_3,"Needs met at last general practice appointment - No, not at all"
+Q90_4,Needs met at last general practice appointment - Don’t know / can’t say
+Q90_123base,Needs met at last general practice appointment - Base for summary result - Total responses excluding 'don’t know/can't say'
+Q90_12,"Needs met at last general practice appointment - Summary result - Yes (Combined 'yes, definitely' and 'yes, to some extent' responses, to be used with base excluding 'don't know / can't say')"
+Q28base,Overall experience of GP practice - Total responses
+Q28_1,Overall experience of GP practice - Very good
+Q28_2,Overall experience of GP practice - Fairly good
+Q28_3,Overall experience of GP practice - Neither good nor poor
+Q28_4,Overall experience of GP practice - Fairly poor
+Q28_5,Overall experience of GP practice - Very poor
+Q28_12345base,Overall experience of GP practice - Base for summary result - Total responses
+Q28_12,"Overall experience of GP practice - Summary result - Good (Combined 'very good' and 'fairly good' responses, to be used with base for summary result)"
+Q91base,Health experiences over the last 12 months - Total responses
+Q91_1,"Health experiences over the last 12 months - Problems with your physical mobility, for example, difficulty getting about your home"
+Q91_2,Health experiences over the last 12 months - Two or more falls that have needed medical attention
+Q91_3,Health experiences over the last 12 months - Feeling isolated from others
+Q91_4,Health experiences over the last 12 months - None of these
+Q92base,Take 5 or more medications on a regular basis - Total responses
+Q92_1,Take 5 or more medications on a regular basis - Yes
+Q92_2,Take 5 or more medications on a regular basis - No
+Q30_recoded_base,Long-term health condition - Total responses
+Q30_recoded_1,Long-term health condition - Yes
+Q30_recoded_2,Long-term health condition - No
+Q30_recoded_3,Long-term health condition - Don't know / can't say
+Q30_recoded_4,Long-term health condition - I would prefer not to say
+Q30_recoded_124base,Long-term health condition - Base for summary result - Total responses excluding 'don't know / can't say'
+Q31base,"Long-term physical or mental health conditions, disabilities or illnesses - Total responses"
+Q31_1,"Long-term physical or mental health conditions, disabilities or illnesses - Alzheimer's disease or other cause of dementia"
+Q31_3,"Long-term physical or mental health conditions, disabilities or illnesses - Arthritis or ongoing problem with back and joints"
+Q31_21,"Long-term physical or mental health conditions, disabilities or illnesses - Autism or autism spectrum condition"
+Q31_5,"Long-term physical or mental health conditions, disabilities or illnesses - Blindness or patial sight"
+Q31_4,"Long-term physical or mental health conditions, disabilities or illnesses - A breathing condition such as asthma or COPD"
+Q31_6,"Long-term physical or mental health conditions, disabilities or illnesses - Cancer (diagnosis or treatment in the last 5 years)"
+Q31_7,"Long-term physical or mental health conditions, disabilities or illnesses - Deafness or hearing loss"
+Q31_8,"Long-term physical or mental health conditions, disabilities or illnesses - Diabetes"
+Q31_2,"Long-term physical or mental health conditions, disabilities or illnesses - A heart condition, such as angina or atrial fibrillation"
+Q31_10,"Long-term physical or mental health conditions, disabilities or illnesses - High blood pressure"
+Q31_11,"Long-term physical or mental health conditions, disabilities or illnesses - Kidney or liver disease"
+Q31_19,"Long-term physical or mental health conditions, disabilities or illnesses - A learning disability"
+Q31_14,"Long-term physical or mental health conditions, disabilities or illnesses - A mental health condition"
+Q31_15,"Long-term physical or mental health conditions, disabilities or illnesses - A neurological condition, such as epilespsy"
+Q31_20,"Long-term physical or mental health conditions, disabilities or illnesses - A stroke (which affects your day-to-day life)"
+Q31_16,"Long-term physical or mental health conditions, disabilities or illnesses - Another long-term condition or disability"
+Q31_17,"Long-term physical or mental health conditions, disabilities or illnesses - I do not have any long-term conditions"
+Q93base,Conditions reduce your ability to carry out your day-to-day activities - Total responses
+Q93_1,"Conditions reduce your ability to carry out your day-to-day activities - Yes, a lot"
+Q93_2,"Conditions reduce your ability to carry out your day-to-day activities - Yes, a little"
+Q93_3,"Conditions reduce your ability to carry out your day-to-day activities - No, not at all"
+Q93_123base,Conditions reduce your ability to carry out your day-to-day activities - Base for summary result - Total responses
+Q93_12,"Conditions reduce your ability to carry out your day-to-day activities - Summary result - Yes (Combined 'yes, a lot' and 'yes, a little' responses, to be used with base for summary result)"
+Q94base,Confidence can manage any issues arising from your condition (or conditions) - Total responses
+Q94_1,Confidence can manage any issues arising from your condition (or conditions) - Very confident
+Q94_2,Confidence can manage any issues arising from your condition (or conditions) - Fairly confident
+Q94_3,Confidence can manage any issues arising from your condition (or conditions) - Not very confident
+Q94_4,Confidence can manage any issues arising from your condition (or conditions) - Not at all confident
+Q94_5,Confidence can manage any issues arising from your condition (or conditions) - Don’t know
+Q94_1234base,Confidence can manage any issues arising from your condition (or conditions) - Base for summary result - Total responses excluding 'don't know'
+Q94_12,"Confidence can manage any issues arising from your condition (or conditions) - Summary result - Confident (Combined 'very confident' and 'fairly confident' responses, to be used with base excluding 'don't know')"
+Q32base,"Last 12 months, enough support from local services/organisations to help manage long-term conditions - Total responses"
+Q32_1,"Last 12 months, enough support from local services/organisations to help manage long-term conditions - Yes, definitely"
+Q32_2,"Last 12 months, enough support from local services/organisations to help manage long-term conditions - Yes, to some extent"
+Q32_3,"Last 12 months, enough support from local services/organisations to help manage long-term conditions - No"
+Q32_4,"Last 12 months, enough support from local services/organisations to help manage long-term conditions - I haven't needed support"
+Q32_5,"Last 12 months, enough support from local services/organisations to help manage long-term conditions - Don't know / can't say"
+Q32_123base,"Last 12 months, enough support from local services/organisations to help manage long-term conditions - Base for summary result - Total responses excluding 'don't know / can't say' and 'I haven't needed support'"
+Q32_12,"Last 12 months, enough support from local services/organisations to help manage long-term conditions - Summary result - Yes (Combined 'yes, definitely' and 'yes, to some extent' responses, to be used with base excluding 'don't know / can't say' and 'I haven't needed support')"
+Q95base,"Last 12 months, had unexpected stays in hospital because of your condition (or conditions) - Total responses"
+Q95_1,"Last 12 months, had unexpected stays in hospital because of your condition (or conditions) - Yes"
+Q95_2,"Last 12 months, had unexpected stays in hospital because of your condition (or conditions) - No"
+Q96base,Had a conversation with a healthcare professional from GP practice to discuss what is important when managing condition (or conditions) - Total responses
+Q96_1,Had a conversation with a healthcare professional from GP practice to discuss what is important when managing condition (or conditions) - Yes
+Q96_2,Had a conversation with a healthcare professional from GP practice to discuss what is important when managing condition (or conditions) - No
+Q96_3,Had a conversation with a healthcare professional from GP practice to discuss what is important when managing condition (or conditions) - Don't know
+Q96_123base,Had a conversation with a healthcare professional from GP practice to discuss what is important when managing condition (or conditions) - Base for summary result - Total responses
+Q97base,Agreed a plan with a healthcare professional from your GP practice to manage your condition (or conditions) - Total responses
+Q97_1,Agreed a plan with a healthcare professional from your GP practice to manage your condition (or conditions) - Yes
+Q97_2,Agreed a plan with a healthcare professional from your GP practice to manage your condition (or conditions) - No
+Q97_3,Agreed a plan with a healthcare professional from your GP practice to manage your condition (or conditions) - Don't know
+Q97_123base,Agreed a plan with a healthcare professional from your GP practice to manage your condition (or conditions) - Base for summary result - Total responses
+Q98base,How helpful plan is in managing your condition (or conditions) - Total responses
+Q98_1,How helpful plan is in managing your condition (or conditions) - Very helpful
+Q98_2,How helpful plan is in managing your condition (or conditions) - Fairly helpful
+Q98_3,How helpful plan is in managing your condition (or conditions) - Not very helpful
+Q98_4,How helpful plan is in managing your condition (or conditions) - Not at all helpful
+Q98_5,How helpful plan is in managing your condition (or conditions) - Don't know
+Q98_1234base,How helpful plan is in managing your condition (or conditions) - Base for summary result - Total responses excluding 'don't know'
+Q98_12,"How helpful plan is in managing your condition (or conditions) - Summary result - Helpful (Combined 'very helpful' and 'fairly helpful' responses, to be used with base excluding 'don't know')"
+Q99base,Given (or offered) a written or printed copy of this plan - Total responses
+Q99_1,Given (or offered) a written or printed copy of this plan - Yes
+Q99_2,Given (or offered) a written or printed copy of this plan - No
+Q99_3,Given (or offered) a written or printed copy of this plan - Don't know
+Q99_123base,Given (or offered) a written or printed copy of this plan - Base for summary result - Total responses
+Q66base,Contacted an NHS service when they wanted to see a GP but GP practice was closed in last 12 months - Total responses
+Q66_1,"Contacted an NHS service when they wanted to see a GP but GP practice was closed in last 12 months - Yes, for myself"
+Q66_2,"Contacted an NHS service when they wanted to see a GP but GP practice was closed in last 12 months - Yes, for someone else"
+Q66_3,Contacted an NHS service when they wanted to see a GP but GP practice was closed in last 12 months - No
+Q67base,What happened when contacted NHS services when wanted to see GP but GP practice was closed - Total responses
+Q67_1,What happened when contacted NHS services when wanted to see GP but GP practice was closed - I contacted an NHS service by telephone
+Q67_2,What happened when contacted NHS services when wanted to see GP but GP practice was closed - A healthcare professional called me back
+Q67_3,What happened when contacted NHS services when wanted to see GP but GP practice was closed - A healthcare professional visited me at home
+Q67_4,What happened when contacted NHS services when wanted to see GP but GP practice was closed - I went to A&E
+Q67_5,What happened when contacted NHS services when wanted to see GP but GP practice was closed - I saw a pharmacist
+Q67_8,What happened when contacted NHS services when wanted to see GP but GP practice was closed - I went to another general practice service
+Q67_6,What happened when contacted NHS services when wanted to see GP but GP practice was closed - I went to another NHS service
+Q67_7,What happened when contacted NHS services when wanted to see GP but GP practice was closed - Can’t remember
+Q68base,How quickly care or advice was received on that occasion - Total responses
+Q68_1,How quickly care or advice was received on that occasion - It was about right
+Q68_2,How quickly care or advice was received on that occasion - It took too long
+Q68_3,How quickly care or advice was received on that occasion - Don't know / doesn't apply
+Q68_12base,How quickly care or advice was received on that occasion - Base for summary result - Total responses excluding 'don't know / doesn't apply'
+Q69base,Confidence and trust in the person they saw or spoke to on that occasion - Total responses
+Q69_1,"Confidence and trust in the person they saw or spoke to on that occasion - Yes, definitely"
+Q69_2,"Confidence and trust in the person they saw or spoke to on that occasion - Yes, to some extent"
+Q69_3,"Confidence and trust in the person they saw or spoke to on that occasion - No, not at all"
+Q69_4,Confidence and trust in the person they saw or spoke to on that occasion - Don't know / can't say
+Q69_123base,Confidence and trust in the person they saw or spoke to on that occasion - Base for summary result - Total responses excluding 'don't know / can't say'
+Q69_12,"Confidence and trust in the person they saw or spoke to on that occasion - Summary result - Yes (Combined 'yes, definitely' and 'yes, to some extent', to be used with base excluding 'don't know / can't say')"
+Q70base,Overall experience of NHS services when GP practice was closed - Total responses
+Q70_1,Overall experience of NHS services when GP practice was closed - Very good
+Q70_2,Overall experience of NHS services when GP practice was closed - Fairly good
+Q70_3,Overall experience of NHS services when GP practice was closed - Neither good nor poor
+Q70_4,Overall experience of NHS services when GP practice was closed - Fairly poor
+Q70_5,Overall experience of NHS services when GP practice was closed - Very poor
+Q70_6,Overall experience of NHS services when GP practice was closed - Don't know / can't say
+Q70_12345base,Overall experience of NHS services when GP practice was closed - Base for summary result - Total responses excluding 'don't know / can't say'
+Q70_12,"Overall experience of NHS services when GP practice was closed - Summary result - Good (Combined 'very good' and 'fairly good' responses, to be used with base excluding 'don't know / can't say')"
+Q42base,Last tried to get an NHS dental appointment for themselves - Total responses
+Q42_1,Last tried to get an NHS dental appointment for themselves -  In the last 3 months
+Q42_2,Last tried to get an NHS dental appointment for themselves - Between 3 and 6 months ago
+Q42_3,Last tried to get an NHS dental appointment for themselves - Between 6 months and a year ago
+Q42_4,Last tried to get an NHS dental appointment for themselves - Between 1 and 2 years ago
+Q42_5,Last tried to get an NHS dental appointment for themselves - More than 2 years ago
+Q42_6,Last tried to get an NHS dental appointment for themselves - I have never tried to get an NHS dental appointment
+Q43base,Appointment with dental practice had been to before for NHS dental care - Total responses
+Q43_1,Appointment with dental practice had been to before for NHS dental care - Yes
+Q43_2,Appointment with dental practice had been to before for NHS dental care - No
+Q43_3,Appointment with dental practice had been to before for NHS dental care - Can't remember
+Q44base,Successful in getting an NHS dental appointment - Total responses
+Q44_1,Successful in getting an NHS dental appointment - Yes
+Q44_2,Successful in getting an NHS dental appointment - No
+Q44_3,Successful in getting an NHS dental appointment - Can't remember
+Q45base,Overall experience of NHS dental services - Total responses
+Q45_1,Overall experience of NHS dental services - Very good
+Q45_2,Overall experience of NHS dental services - Fairly good
+Q45_3,Overall experience of NHS dental services - Neither good nor poor
+Q45_4,Overall experience of NHS dental services - Fairly poor
+Q45_5,Overall experience of NHS dental services - Very poor
+Q46base,Reason haven’t tried to get an NHS dental appointment in last two years - Total responses
+Q46_1,Reason haven’t tried to get an NHS dental appointment in last two years - I haven't needed to visit a dentist
+Q46_2,Reason haven’t tried to get an NHS dental appointment in last two years - I no longer have any natural teeth
+Q46_3,Reason haven’t tried to get an NHS dental appointment in last two years - I haven't had time to visit a dentist
+Q46_4,Reason haven’t tried to get an NHS dental appointment in last two years - I don't like going to the dentist
+Q46_5,Reason haven’t tried to get an NHS dental appointment in last two years - I didn't think I could get an NHS dentist
+Q46_6,Reason haven’t tried to get an NHS dental appointment in last two years - I'm on a waiting list for an NHS dentist
+Q46_7,Reason haven’t tried to get an NHS dental appointment in last two years - I stayed with my dentist when they changed from NHS to private
+Q46_8,Reason haven’t tried to get an NHS dental appointment in last two years - I prefer to go to a private dentist
+Q46_9,Reason haven’t tried to get an NHS dental appointment in last two years - NHS dental care is too expensive
+Q46_10,Reason haven’t tried to get an NHS dental appointment in last two years - Another reason
+Q47base,Gender - Total responses
+Q47_1,Gender - Male
+Q47_2,Gender - Female
+Q48_Mergedbase,Age - Total responses
+Q48_Merged_1,Age - Under 16
+Q48_Merged_2,Age - 16 to 24
+Q48_Merged_3,Age - 25 to 34
+Q48_Merged_4,Age - 35 to 44
+Q48_Merged_5,Age - 45 to 54
+Q48_Merged_6,Age - 55 to 64
+Q48_Merged_7,Age - 65 to 74
+Q48_Merged_8,Age - 75 to 84
+Q48_Merged_9,Age - 85 or over
+Q49base,Ethnic group - Total responses
+Q49_1,Ethnic group - White - English/Welsh/Scottish/Northern Irish/British
+Q49_2,Ethnic group - White - Irish
+Q49_3,Ethnic group - White - Gypsy or Irish Traveller
+Q49_4,Ethnic group - White - Any other White background
+Q49_5,Ethnic group - Mixed - White and Black Caribbean
+Q49_6,Ethnic group - Mixed - White and Black African
+Q49_7,Ethnic group - Mixed - White and Asian
+Q49_8,Ethnic group - Mixed - Any other Mixed/Multiple Ethnic background
+Q49_9,Ethnic group - Asian/Asian British - Indian
+Q49_10,Ethnic group - Asian/Asian British - Pakistani
+Q49_11,Ethnic group - Asian/Asian British - Bangladeshi
+Q49_12,Ethnic group - Asian/Asian British - Chinese
+Q49_13,Ethnic group - Asian/Asian British - Any other Asian background
+Q49_14,Ethnic group - Black/African/Caribbean/Black British - African
+Q49_15,Ethnic group - Black/African/Caribbean/Black British - Caribbean
+Q49_16,Ethnic group - Black/African/Caribbean/Black British - Any other Black/African/Caribbean background
+Q49_17,Ethnic group - Arab
+Q49_18,Ethnic group - Any other ethnic group
+Q50base,Working status - Total responses
+Q50_1,Working status - Full-time paid work (30 hours or more each week)
+Q50_2,Working status - Part-time paid work (under 30 hours each week)
+Q50_3,"Working status - Full-time education at school, college or university"
+Q50_4,Working status - Unemployed
+Q50_5,Working status - Permanently sick or disabled
+Q50_6,Working status - Fully retired from work
+Q50_7,Working status - Looking after the family or home
+Q50_8,Working status - Doing something else
+Q53base,Parent or legal guardian - Total responses
+Q53_1,Parent or legal guardian - Yes
+Q53_2,Parent or legal guardian - No
+Q56base,Look after/provide support to family etc. for physical or mental ill health/problems in old age - Total responses
+Q56_1,Look after/provide support to family etc. for physical or mental ill health/problems in old age - No
+Q56_2,"Look after/provide support to family etc. for physical or mental ill health/problems in old age - Yes, 1 to 9 hours a week"
+Q56_3,"Look after/provide support to family etc. for physical or mental ill health/problems in old age - Yes, 10 to 19 hours a week"
+Q56_4,"Look after/provide support to family etc. for physical or mental ill health/problems in old age - Yes, 20 to 34 hours a week"
+Q56_5,"Look after/provide support to family etc. for physical or mental ill health/problems in old age - Yes, 35 to 49 hours a week"
+Q56_6,"Look after/provide support to family etc. for physical or mental ill health/problems in old age - Yes, 50 or more hours a week"
+Q56_123456base,Look after/provide support to family etc. for physical or mental ill health/problems in old age -  Base for summary result - Total responses
+Q56_23456,"Look after/provide support to family etc. for physical or mental ill health/problems in old age - Summary result - Yes (Combined all 'yes' responses, to be used with base for summary result)"
+Q54base,Deaf and use sign language - Total responses
+Q54_1,Deaf and use sign language - Yes
+Q54_2,Deaf and use sign language - No
+Q55base,Smoking habits - total responses
+Q55_1,Smoking habits - Never smoked
+Q55_2,Smoking habits - Former smoker
+Q55_3,Smoking habits - Occasional smoker
+Q55_4,Smoking habits - Regular smoker
+Q57base,Sexual orientation - Total responses
+Q57_1,Sexual orientation - Heterosexual or straight
+Q57_2,Sexual orientation - Gay or lesbian
+Q57_3,Sexual orientation - Bisexual
+Q57_4,Sexual orientation - Other
+Q57_5,Sexual orientation - I would prefer not to say
+Q58base,Religion - Total responses
+Q58_1,Religion - No religion
+Q58_2,Religion - Buddhist
+Q58_3,Religion - Christian
+Q58_4,Religion - Hindu
+Q58_5,Religion - Jewish
+Q58_6,Religion - Muslim
+Q58_7,Religion - Sikh
+Q58_8,Religion - Other
+Q58_9,Religion - I would prefer not to say
+Q3_1pct,Ease of getting through to someone at GP practice on the phone - % Very easy
+Q3_2pct,Ease of getting through to someone at GP practice on the phone - % Fairly easy
+Q3_3pct,Ease of getting through to someone at GP practice on the phone - % Not very easy
+Q3_4pct,Ease of getting through to someone at GP practice on the phone - % Not at all easy
+Q3_5pct,Ease of getting through to someone at GP practice on the phone - % Haven't tried
+Q3_12pct,"Ease of getting through to someone at GP practice on the phone - % Summary result - Easy (Combined 'very easy' and 'fairly easy' responses, using base excluding 'haven't tried')"
+Q4_1pct,Helpfulness of receptionists at GP practice - % Very helpful
+Q4_2pct,Helpfulness of receptionists at GP practice - % Fairly helpful
+Q4_3pct,Helpfulness of receptionists at GP practice - % Not very helpful
+Q4_4pct,Helpfulness of receptionists at GP practice - % Not at all helpful
+Q4_5pct,Helpfulness of receptionists at GP practice - % Don't know
+Q4_12pct,"Helpfulness of receptionists at GP practice - % Summary result - Helpful (Combined 'very helpful' and 'fairly helpful' responses, using base excluding 'don't know')"
+Q72_1pct,Method of booking general practice appointment in the past 12 months - % In person
+Q72_2pct,Method of booking general practice appointment in the past 12 months  - % By phone
+Q72_3pct,Method of booking general practice appointment in the past 12 months - % By automated telephone booking
+Q72_4pct,Method of booking general practice appointment in the past 12 months - % Online including on an app
+Q72_5pct,"Method of booking general practice appointment in the past 12 months - % Via another route, such as NHS 111"
+Q72_6pct,Method of booking general practice appointment in the past 12 months - % Doesn’t apply / none of these
+Q63_1pct,Online services patients are aware are offered by their GP practice - % Booking appointments online
+Q63_2pct,Online services patients are aware are offered by their GP practice - % Ordering repeat prescriptions online
+Q63_3pct,Online services patients are aware are offered by their GP practice - % Accessing medical records online
+Q63_4pct,Online services patients are aware are offered by their GP practice - % None of these
+Q63_5pct,Online services patients are aware are offered by their GP practice - % Don't know
+Q64_1pct,Use of online services at GP practice in past 12 months - % Booking appointments online
+Q64_2pct,Use of online services at GP practice in past 12 months - % Ordering repeat prescriptions online
+Q64_3pct,Use of online services at GP practice in past 12 months - % Accessing medical records online
+Q64_4pct,Use of online services at GP practice in past 12 months - % None of these
+Q73_1pct,Ease of using your GP practice’s website to look for information or access services - % Very easy
+Q73_2pct,Ease of using your GP practice’s website to look for information or access services - % Fairly easy
+Q73_3pct,Ease of using your GP practice’s website to look for information or access services - % Not very easy
+Q73_4pct,Ease of using your GP practice’s website to look for information or access services - % Not at all easy
+Q73_5pct,Ease of using your GP practice’s website to look for information or access services - % Haven't tried
+Q73_12pct,"Ease of using your GP practice’s website to look for information or access services - % Summary result - Easy (Combined 'very easy' and 'fairly easy', using base excluding 'haven't tried')"
+Q74_1pct,Awareness of  general practice appointment times - % Before 8am on at least one weekday
+Q74_2pct,Awareness of  general practice appointment times - % Weekdays between 8am and 6.30pm
+Q74_3pct,Awareness of  general practice appointment times - % After 6.30pm on a weekday
+Q74_4pct,Awareness of  general practice appointment times - % On a Saturday
+Q74_5pct,Awareness of  general practice appointment times - % On a Sunday
+Q74_6pct,Awareness of  general practice appointment times - % Don’t know
+Q25_1pct,Satisfaction with general practice appointment times - % Very satisfied
+Q25_2pct,Satisfaction with general practice appointment times - % Fairly satisfied
+Q25_3pct,Satisfaction with general practice appointment times - % Neither satisfied nor dissatisfied
+Q25_4pct,Satisfaction with general practice appointment times - % Fairly dissatisfied
+Q25_5pct,Satisfaction with general practice appointment times  - % Very dissatisfied
+Q25_6pct,Satisfaction with general practice appointment times - % I'm not sure when I can get an appointment
+Q25_12pct,"Satisfaction with general practice appointment times  - % Summary result - Satisfied (Combined 'very satisfied' and 'fairly satisfied', using base excluding 'I'm not sure when I can get an appointment')"
+Q8_1pct,Have a preferred GP - % Yes
+Q8_4pct,"Have a preferred GP - % Yes, for some appointments but not others"
+Q8_2pct,Have a preferred GP - % No
+Q8_3pct,Have a preferred GP - % There is usually only one GP in my GP practice
+Q8_14pct,"Have a preferred GP - % Summary result - Yes (Combined 'yes' and 'Yes, for some appointments but not others' responses, using base excluding 'there is usually only one GP in my GP practice')"
+Q9_1pct,Frequency of seeing preferred GP - % Always or almost always
+Q9_2pct,Frequency of seeing preferred GP - % A lot of the time
+Q9_3pct,Frequency of seeing preferred GP - % Some of the time
+Q9_4pct,Frequency of seeing preferred GP - % Never or almost never
+Q9_5pct,Frequency of seeing preferred GP - % I have not tried
+Q9_12pct,"Frequency of seeing preferred GP - % Summary result - Always, almost always or a lot of the time (combined 'always or almost always' and 'a lot of the time' responses, using base excluding 'I have not tried')"
+Q75_1pct,"When last tried to make a general practice appointment, for self or for someone else - % In the past 3 months"
+Q75_2pct,"When last tried to make a general practice appointment, for self or for someone else - % Between 3 and 6 months ago"
+Q75_3pct,"When last tried to make a general practice appointment, for self or for someone else - % Between 6 and 12 months ago"
+Q75_4pct,"When last tried to make a general practice appointment, for self or for someone else - % More than 12 months ago"
+Q75_5pct,"When last tried to make a general practice appointment, for self or for someone else - % Don’t know"
+Q75_6pct,"When last tried to make a general practice appointment, for self or for someone else - % I haven’t tried to make an appointment since being registered with my current GP practice"
+Q75_12pct,"When last tried to make a general practice appointment, for self or for someone else - % Summary result - In the past 6 months (Combined 'in the past 3 months' and 'between 3 and 6 months ago', using base excluding 'don't know')"
+Q76_1pct,Who appointment was for - % Me
+Q76_2pct,Who appointment was for - % A child under 16
+Q76_3pct,Who appointment was for - % An adult aged 16 or over who I am a carer for
+Q76_4pct,Who appointment was for - % Another adult aged 16 or over (including family members)
+Q77_1pct,"Concern about health, or  health of the person making appointment for - % Very concerned"
+Q77_2pct,"Concern about health, or  health of the person making appointment for - % Fairly concerned"
+Q77_3pct,"Concern about health, or  health of the person making appointment for - % Not very concerned"
+Q77_4pct,"Concern about health, or  health of the person making appointment for - % Not at all concerned"
+Q77_5pct,"Concern about health, or  health of the person making appointment for - % Can’t remember"
+Q77_12pct,"Concern about health, or  health of the person making appointment for - % Summary result - Concerned (Combined 'very concerned' and 'fairly concerned' responses, using base excluding 'can't remember')"
+Q78_1pct,Actions taken before trying to get an appointment - % I looked for information online
+Q78_2pct,Actions taken before trying to get an appointment - % Spoke to a pharmacist
+Q78_3pct,Actions taken before trying to get an appointment - % Tried to treat myself / the person I was making this appointment for (for example with medication)
+Q78_4pct,"Actions taken before trying to get an appointment - % Called an NHS helpline, such as NHS 111"
+Q78_5pct,Actions taken before trying to get an appointment  - % Went to or contacted another NHS service
+Q78_6pct,Actions taken before trying to get an appointment - % Asked for advice from a friend or family member
+Q78_7pct,Actions taken before trying to get an appointment - % Tried to get information or advice elsewhere (from a non-NHS service)
+Q78_8pct,Actions taken before trying to get an appointment - % I did not try to get information or advice
+Q11_1pct,When would you have liked this appointment to be - % On the same day
+Q11_2pct,When would you have liked this appointment to be - % On the next day
+Q11_3pct,When would you have liked this appointment to be - % A few days later
+Q11_4pct,When would you have liked this appointment to be  - % A week or more later
+Q11_5pct,When would you have liked this appointment to be  - % I didn't have a specific day in mind
+Q11_6pct,When would you have liked this appointment to be  - % Can't remember
+Q79_1pct,"Whether offered a choice of appointment- % Yes, a choice of place"
+Q79_2pct,"Whether offered a choice of appointment - % Yes, a choice of time or day"
+Q79_3pct,"Whether offered a choice of appointment - % Yes, a choice of healthcare professional"
+Q79_4pct,"Whether offered a choice of appointment - % No, I was not offered a choice of appointment"
+Q79_5pct,Whether offered a choice of appointment - % Can’t remember
+Q79_6pct,Whether offered a choice of appointment - % Doesn’t apply
+Q79_123pct,"Whether offered a choice of appointment- % Summary result - Yes (Combined 'yes, a choice of place' 'yes, a choice of time or day' and 'yes, a choice of healthcare professional' responses, using base excluding 'can't remember' and 'doesn't apply')"
+Q80_1pct,"Satisfaction with type of appointment offered - % Yes, and I accepted an appointment"
+Q80_2pct,"Satisfaction with type of appointment offered - % No, but I still took an appointment"
+Q80_3pct,"Satisfaction with type of appointment offered - % No, and I did not take an appointment"
+Q80_12pct,"Satisfaction with type of appointment offered - % Accepted appointment (Combined 'yes, and I accepted an appointment' and 'no, but I still took an appointment' responses, using base for summary result)"
+Q81_1pct,Reason for not taking appointments offered… - % There weren’t any appointments available for the time or day I wanted
+Q81_2pct,Reason for not taking appointments offered… - % The appointment was at too short notice
+Q81_3pct,Reason for not taking appointments offered… - % The appointment wasn’t soon enough
+Q81_4pct,Reason for not taking appointments offered… - %  I couldn’t book ahead at my GP practice
+Q81_5pct,Reason for not taking appointments offered… - % There weren’t any appointments at the place I wanted
+Q81_6pct,Reason for not taking appointments offered… - % The appointment was too far away / too difficult to get to
+Q81_7pct,Reason for not taking appointments offered… - % I couldn’t see my preferred GP
+Q81_8pct,Reason for not taking appointments offered… - % There weren’t any appointments with the healthcare professional I wanted
+Q81_9pct,Reason for not taking appointments offered… - % The type of appointment I wanted was not available
+Q81_10pct,Reason for not taking appointments offered… - % Another reason
+Q82_1pct,Action after not accepting appointment offered - % Got an appointment for a different day
+Q82_2pct,"Action after not accepting appointment offered - % Called an NHS helpline, such as NHS 111"
+Q82_3pct,Action after not accepting appointment offered - % Went to A&E
+Q82_4pct,Action after not accepting appointment offered - % Spoke to a pharmacist
+Q82_5pct,Action after not accepting appointment offered - % Went to or contacted another NHS service
+Q82_6pct,Action after not accepting appointment offered - % Decided to contact my practice another time
+Q82_7pct,Action after not accepting appointment offered - % Looked for information online
+Q82_8pct,Action after not accepting appointment offered - % Spoke to a friend or family member
+Q82_9pct,Action after not accepting appointment offered - % Didn’t see or speak to anyone
+Q13_NEW_1pct,Type of appointment received - % To speak to someone on the phone
+Q13_NEW_2pct,Type of appointment received - % To see someone at my GP practice
+Q13_NEW_3pct,Type of appointment received - % To see someone at another general practice location
+Q13_NEW_4pct,"Type of appointment received - % To speak to someone online, for example on a video call"
+Q13_NEW_5pct,Type of appointment received - % For a home visit
+Q14_1pct,How long until the appointment took place - % On the same day
+Q14_2pct,How long until the appointment took place - % On the next day
+Q14_3pct,How long until the appointment took place - % A few days later
+Q14_4pct,How long until the appointment took place - % A week or more later
+Q14_5pct,How long until the appointment took place - % Can't remember
+Q18_1pct,Overall experience of making an appointment - % Very good
+Q18_2pct,Overall experience of making an appointment - % Fairly good
+Q18_3pct,Overall experience of making an appointment - % Neither good nor poor
+Q18_4pct,Overall experience of making an appointment - % Fairly poor
+Q18_5pct,Overall experience of making an appointment - % Very poor
+Q18_12pct,"Overall experience of making an appointment - % Summary result - Good (Combined 'very good' and 'fairly good' responses, using base for summary result)"
+Q83_1pct,When last general practice appointment was - % In the past 3 months
+Q83_2pct,When last general practice appointment was - % Between 3 and 6 months ago
+Q83_3pct,When last general practice appointment was - % Between 6 and 12 months ago
+Q83_4pct,When last general practice appointment was - % More than 12 months ago
+Q83_5pct,When last general practice appointment was - % I haven’t had an appointment since being registered with my current GP practice
+Q83_12pct,"When last general practice appointment was - % Summary result - In the past 6 months (Combined 'in the past 3 months' and 'between 3 and 6 months ago' responses, using base for summary result)"
+Q84_1pct,Who last general practice appointment was with - % A GP
+Q84_2pct,Who last general practice appointment was with - % A nurse
+Q84_3pct,Who last general practice appointment was with - % A general practice pharmacist
+Q84_4pct,Who last general practice appointment was with - % A mental health professional
+Q84_5pct,Who last general practice appointment was with - % Another healthcare professional
+Q84_6pct,Who last general practice appointment was with - % Don’t know / not sure who I saw
+Q85_1pct,How long was the wait after appointment time to see or speak to the healthcare professional - % 5 minutes or less
+Q85_2pct,How long was the wait after appointment time to see or speak to the healthcare professional - % Between 5 and 15 minutes
+Q85_3pct,How long was the wait after appointment time to see or speak to the healthcare professional - % 15 to 30 minutes
+Q85_4pct,How long was the wait after appointment time to see or speak to the healthcare professional - % More than 30 minutes
+Q85_5pct,How long was the wait after appointment time to see or speak to the healthcare professional - % I didn’t have an appointment at a set time
+Q85_6pct,How long was the wait after appointment time to see or speak to the healthcare professional - % Can’t remember
+Q85_12pct,"How long was the wait after appointment time to see or speak to the healthcare professional - % Summary result - Within 15 minutes or less (Combined '5 minutes or less' and 'between 5 and 15 minutes' responses, using base excluding 'I didn't have an appointment at a set time', and  'can't remember')"
+Q86a_1pct,"Last time you had a general practice appointment, how good was the healthcare professional at: Giving you enough time - % Very good"
+Q86a_2pct,"Last time you had a general practice appointment, how good was the healthcare professional at: Giving you enough time - % Good"
+Q86a_3pct,"Last time you had a general practice appointment, how good was the healthcare professional at: Giving you enough time - % Neither good nor poor"
+Q86a_4pct,"Last time you had a general practice appointment, how good was the healthcare professional at: Giving you enough time - % Poor"
+Q86a_5pct,"Last time you had a general practice appointment, how good was the healthcare professional at: Giving you enough time - % Very poor"
+Q86a_6pct,"Last time you had a general practice appointment, how good was the healthcare professional at: Giving you enough time - % Doesn't apply"
+Q86a_12pct,"Last time you had a general practice appointment, how good was the healthcare professional at: Giving you enough time - % Summary result - Good (Combined 'very good' and 'good' responses, using base excluding 'doesn't apply')"
+Q86b_1pct,"Last time you had a general practice appointment, how good was the healthcare professional at: Listening to you - % Very good"
+Q86b_2pct,"Last time you had a general practice appointment, how good was the healthcare professional at: Listening to you - % Good"
+Q86b_3pct,"Last time you had a general practice appointment, how good was the healthcare professional at: Listening to you - % Neither good nor poor"
+Q86b_4pct,"Last time you had a general practice appointment, how good was the healthcare professional at: Listening to you - % Poor"
+Q86b_5pct,"Last time you had a general practice appointment, how good was the healthcare professional at: Listening to you - % Very poor"
+Q86b_6pct,"Last time you had a general practice appointment, how good was the healthcare professional at: Listening to you - % Doesn't apply"
+Q86b_12pct,"Last time you had a general practice appointment, how good was the healthcare professional at: Listening to you - % Summary result - Good (Combined 'very good' and 'good' responses, using base excluding 'doesn't apply')"
+Q86e_1pct,"Last time you had a general practice appointment, how good was the healthcare professional at: Treating you with care and concern - % Very good"
+Q86e_2pct,"Last time you had a general practice appointment, how good was the healthcare professional at: Treating you with care and concern - % Good"
+Q86e_3pct,"Last time you had a general practice appointment, how good was the healthcare professional at: Treating you with care and concern - % Neither good nor poor"
+Q86e_4pct,"Last time you had a general practice appointment, how good was the healthcare professional at: Treating you with care and concern - % Poor"
+Q86e_5pct,"Last time you had a general practice appointment, how good was the healthcare professional at: Treating you with care and concern - % Very poor"
+Q86e_6pct,"Last time you had a general practice appointment, how good was the healthcare professional at: Treating you with care and concern - % Doesn't apply"
+Q86e_12pct,"Last time you had a general practice appointment, how good was the healthcare professional at: Treating you with care and concern - % Summary result - Good (Combined 'very good' and 'good' responses, using base excluding 'doesn't apply')"
+Q87_1pct,"During last general practice appointment, healthcare professional recognised and/or understood mental health needs - % Yes, definitely"
+Q87_2pct,"During last general practice appointment, healthcare professional recognised and/or understood mental health needs - % Yes, to some extent"
+Q87_3pct,"During last general practice appointment, healthcare professional recognised and/or understood mental health needs - % No, not at all"
+Q87_4pct,"During last general practice appointment, healthcare professional recognised and/or understood mental health needs - % I did not have any mental health needs"
+Q87_5pct,"During last general practice appointment, healthcare professional recognised and/or understood mental health needs - % Did not apply to my last appointment"
+Q87_12pct,"During last general practice appointment, healthcare professional recognised and/or understood mental health needs - % Summary result - Yes (Combined 'yes, definitely' and 'Yes, to some extent' responses, using base excluding 'I did not have any mental health needs' and 'did not apply to my last appointment')"
+Q88_1pct,"During last general practice appointment, involved as much as they wanted to be in decisions about care and treatment - % Yes, definitely"
+Q88_2pct,"During last general practice appointment, involved as much as they wanted to be in decisions about care and treatment - % Yes, to some extent"
+Q88_3pct,"During last general practice appointment, involved as much as they wanted to be in decisions about care and treatment - % No, not at all"
+Q88_4pct,"During last general practice appointment, involved as much as they wanted to be in decisions about care and treatment - % Don’t know / doesn’t apply"
+Q88_12pct,"During last general practice appointment, involved as much as they wanted to be in decisions about care and treatment - % Summary result - Yes (Combined 'yes, definitely' and 'yes, to some extent' responses, using base excluding  'don't know / doesn't apply')"
+Q89_1pct,"During last general practice appointment, had confidence and trust in healthcare professional - % Yes, definitely"
+Q89_2pct,"During last general practice appointment, had confidence and trust in healthcare professional - % Yes, to some extent"
+Q89_3pct,"During last general practice appointment, had confidence and trust in healthcare professional - % No, not at all"
+Q89_4pct,"During last general practice appointment, had confidence and trust in healthcare professional - % Don’t know / can’t say"
+Q89_12pct,"During last general practice appointment, had confidence and trust in healthcare professional - % Summary result - Yes (Combined 'yes, definitely' and 'yes, to some extent' responses, using base excluding  'don't know / can't say')"
+Q90_1pct,"Needs met at last general practice appointment  - % Yes, definitely"
+Q90_2pct,"Needs met at last general practice appointment  - % Yes, to some extent"
+Q90_3pct,"Needs met at last general practice appointment  - % No, not at all"
+Q90_4pct,Needs met at last general practice appointment  - % Don’t know / can’t say
+Q90_12pct,"Needs met at last general practice appointment  - % Summary result - Yes (Combined 'yes, definitely' and 'yes, to some extent' responses, using base excluding 'don't know / can't say')"
+Q28_1pct,Overall experience of GP practice - % Very good
+Q28_2pct,Overall experience of GP practice - % Fairly good
+Q28_3pct,Overall experience of GP practice - % Neither good nor poor
+Q28_4pct,Overall experience of GP practice - % Fairly poor
+Q28_5pct,Overall experience of GP practice - % Very poor
+Q28_12pct,"Overall experience of GP practice - % Summary result - Good (Combined 'very good' and 'fairly good' responses, using base for summary result)"
+Q91_1pct,"Health experiences over the last 12 months - % Problems with your physical mobility, for example, difficulty getting about your home"
+Q91_2pct,Health experiences over the last 12 months - % Two or more falls that have needed medical attention
+Q91_3pct,Health experiences over the last 12 months - % Feeling isolated from others
+Q91_4pct,Health experiences over the last 12 months - % None of these
+Q92_1pct,Take 5 or more medications on a regular basis - % Yes
+Q92_2pct,Take 5 or more medications on a regular basis - % No
+Q30_recoded_1pct,Long-term health condition - % Yes
+Q30_recoded_2pct,Long-term health condition - % No
+Q30_recoded_3pct,Long-term health condition - % Don't know / can't say
+Q30_recoded_4pct,Long-term health condition - % I would prefer not to say
+Q30_recoded_124_1pct,"Long-term health condition - % Summary result - Yes (Total 'yes' responses, using base excluding 'don't know')"
+Q31_1pct,"Long-term physical or mental health conditions, disabilities or illnesses - % Alzheimer's disease or other cause of dementia"
+Q31_3pct,"Long-term physical or mental health conditions, disabilities or illnesses - % Arthritis or ongoing problem with back and joints"
+Q31_21pct,"Long-term physical or mental health conditions, disabilities or illnesses - % Autism or autism spectrum condition"
+Q31_5pct,"Long-term physical or mental health conditions, disabilities or illnesses - % Blindness or patial sight"
+Q31_4pct,"Long-term physical or mental health conditions, disabilities or illnesses - % A breathing condition such as asthma or COPD"
+Q31_6pct,"Long-term physical or mental health conditions, disabilities or illnesses - % Cancer (diagnosis or treatment in the last 5 years)"
+Q31_7pct,"Long-term physical or mental health conditions, disabilities or illnesses - % Deafness or hearing loss"
+Q31_8pct,"Long-term physical or mental health conditions, disabilities or illnesses - % Diabetes"
+Q31_2pct,"Long-term physical or mental health conditions, disabilities or illnesses - % A heart condition, such as angina or atrial fibrillation"
+Q31_10pct,"Long-term physical or mental health conditions, disabilities or illnesses - % High blood pressure"
+Q31_11pct,"Long-term physical or mental health conditions, disabilities or illnesses - % Kidney or liver disease"
+Q31_19pct,"Long-term physical or mental health conditions, disabilities or illnesses - % A learning disability"
+Q31_14pct,"Long-term physical or mental health conditions, disabilities or illnesses - % A mental health condition"
+Q31_15pct,"Long-term physical or mental health conditions, disabilities or illnesses - % A neurological condition, such as epilespsy"
+Q31_20pct,"Long-term physical or mental health conditions, disabilities or illnesses - % A stroke (which affects your day-to-day life)"
+Q31_16pct,"Long-term physical or mental health conditions, disabilities or illnesses - % Another long-term condition or disability"
+Q31_17pct,"Long-term physical or mental health conditions, disabilities or illnesses - % I do not have any long-term conditions"
+Q93_1pct,"Conditions reduce your ability to carry out your day-to-day activities - % Yes, a lot"
+Q93_2pct,"Conditions reduce your ability to carry out your day-to-day activities - % Yes, a little"
+Q93_3pct,"Conditions reduce your ability to carry out your day-to-day activities - % No, not at all"
+Q93_12pct,"Conditions reduce your ability to carry out your day-to-day activities - % Summary result - Yes (Combined 'yes, a lot' and 'yes, a little' responses, using base for summary result)"
+Q94_1pct,Confidence can manage any issues arising from your condition (or conditions) - % Very confident
+Q94_2pct,Confidence can manage any issues arising from your condition (or conditions) - % Fairly confident
+Q94_3pct,Confidence can manage any issues arising from your condition (or conditions) - % Not very confident
+Q94_4pct,Confidence can manage any issues arising from your condition (or conditions) - % Not at all confident
+Q94_5pct,Confidence can manage any issues arising from your condition (or conditions) - % Don’t know
+Q94_12pct,"Confidence can manage any issues arising from your condition (or conditions) - % Summary result - Confident (Combined 'very confident' and 'fairly confident' responses, using base excluding 'don't know')"
+Q32_1pct,"Last 12 months, enough support from local services/organisations to help manage long-term conditions - % Yes, definitely"
+Q32_2pct,"Last 12 months, enough support from local services/organisations to help manage long-term conditions - % Yes, to some extent"
+Q32_3pct,"Last 12 months, enough support from local services/organisations to help manage long-term conditions - % No"
+Q32_4pct,"Last 12 months, enough support from local services/organisations to help manage long-term conditions - % I haven't needed such support"
+Q32_5pct,"Last 12 months, enough support from local services/organisations to help manage long-term conditions - % Don't know / can't say"
+Q32_12pct,"Last 12 months, enough support from local services/organisations to help manage long-term conditions - % Summary result - Yes (Combined 'yes, definitely' and 'yes, to some extent' responses, using base excluding 'don't know / can't say' and 'I haven't needed support')"
+Q95_1pct,"Last 12 months, had unexpected stays in hospital because of your condition (or conditions) - % Yes"
+Q95_2pct,"Last 12 months, had unexpected stays in hospital because of your condition (or conditions) - % No"
+Q96_1pct,Had a conversation with a healthcare professional from GP practice to discuss what is important when managing condition (or conditions) - % Yes
+Q96_2pct,Had a conversation with a healthcare professional from GP practice to discuss what is important when managing condition (or conditions) - % No
+Q96_3pct,Had a conversation with a healthcare professional from GP practice to discuss what is important when managing condition (or conditions) - % Don't know
+Q97_1pct,Agreed a plan with a healthcare professional from your GP practice to manage your condition (or conditions) - % Yes
+Q97_2pct,Agreed a plan with a healthcare professional from your GP practice to manage your condition (or conditions) - % No
+Q97_3pct,Agreed a plan with a healthcare professional from your GP practice to manage your condition (or conditions) - % Don't know
+Q98_1pct,How helpful plan is in managing your condition (or conditions) - % Very helpful
+Q98_2pct,How helpful plan is in managing your condition (or conditions) - % Fairly helpful
+Q98_3pct,How helpful plan is in managing your condition (or conditions) - % Not very helpful
+Q98_4pct,How helpful plan is in managing your condition (or conditions) - % Not at all helpful
+Q98_5pct,How helpful plan is in managing your condition (or conditions) - % Don't know
+Q98_12pct,"How helpful plan is in managing your condition (or conditions) - % Summary result - Helpful (Combined 'very helpful' and 'fairly helpful' responses, using base excluding 'don't know')"
+Q99_1pct,Given (or offered) a written or printed copy of this plan - % Yes
+Q99_2pct,Given (or offered) a written or printed copy of this plan - % No
+Q99_3pct,Given (or offered) a written or printed copy of this plan - % Don't know
+Q66_1pct,"Contacted an NHS service when they wanted to see a GP but GP practice was closed in last 12 months - % Yes, for myself"
+Q66_2pct,"Contacted an NHS service when they wanted to see a GP but GP practice was closed in last 12 months - % Yes, for someone else"
+Q66_3pct,Contacted an NHS service when they wanted to see a GP but GP practice was closed in last 12 months - % No
+Q67_1pct,What happened when contacted NHS services when wanted to see GP but GP practice was closed - % I contacted an NHS service by telephone
+Q67_2pct,What happened when contacted NHS services when wanted to see GP but GP practice was closed - % A healthcare professional called me back
+Q67_3pct,What happened when contacted NHS services when wanted to see GP but GP practice was closed - % A healthcare professional visited me at home
+Q67_4pct,What happened when contacted NHS services when wanted to see GP but GP practice was closed - % I went to A&E
+Q67_5pct,What happened when contacted NHS services when wanted to see GP but GP practice was closed - % I saw a pharmacist
+Q67_8pct,What happened when contacted NHS services when wanted to see GP but GP practice was closed - % I went to another general practice service
+Q67_6pct,What happened when contacted NHS services when wanted to see GP but GP practice was closed - % I went to another NHS service
+Q67_7pct,What happened when contacted NHS services when wanted to see GP but GP practice was closed - % Can’t remember
+Q68_1pct,How quickly care or advice was received on that occasion - % It was about right
+Q68_2pct,How quickly care or advice was received on that occasion - %  It took too long
+Q68_3pct,How quickly care or advice was received on that occasion - % Don't know / doesn't apply
+Q68_12_1pct,How quickly care or advice was received on that occasion - % Summary result - It was about right (Using base excluding 'don't know / doesn't apply')
+Q69_1pct,"Confidence and trust in the person they saw or spoke to on that occasion - % Yes, definitely"
+Q69_2pct,"Confidence and trust in the person they saw or spoke to on that occasion - % Yes, to some extent"
+Q69_3pct,"Confidence and trust in the person they saw or spoke to on that occasion - % No, not at all"
+Q69_4pct,Confidence and trust in the person they saw or spoke to on that occasion - % Don't know / can't say
+Q69_12pct,"Confidence and trust in the person they saw or spoke to on that occasion - % Summary result - Yes (Combined 'yes, definitely' and 'yes, to some extent', using base excluding 'don't know / can't say')"
+Q70_1pct,Overall experience of NHS services when GP practice was closed - % Very good
+Q70_2pct,Overall experience of NHS services when GP practice was closed - % Fairly good
+Q70_3pct,Overall experience of NHS services when GP practice was closed - % Neither good nor poor
+Q70_4pct,Overall experience of NHS services when GP practice was closed - % Fairly poor
+Q70_5pct,Overall experience of NHS services when GP practice was closed - % Very poor
+Q70_6pct,Overall experience of NHS services when GP practice was closed - % Don't know / can't say
+Q70_12pct,"Overall experience of NHS services when GP practice was closed - % Summary result Good (Combined 'very good' and 'fairly good' responses, using base excluding 'don't know / can't say')"
+Q42_1pct,Last tried to get an NHS dental appointment for themselves - % In the last 3 months
+Q42_2pct,Last tried to get an NHS dental appointment for themselves - % Between 3 and 6 months ago
+Q42_3pct,Last tried to get an NHS dental appointment for themselves - % Between 6 months and a year ago
+Q42_4pct,Last tried to get an NHS dental appointment for themselves - % Between 1 and 2 years ago
+Q42_5pct,Last tried to get an NHS dental appointment for themselves - % More than 2 years ago
+Q42_6pct,Last tried to get an NHS dental appointment for themselves - % I have never tried to get an NHS dental appointment
+Q43_1pct,Appointment with dental practice had been to before for NHS dental care - % Yes
+Q43_2pct,Appointment with dental practice had been to before for NHS dental care - % No
+Q43_3pct,Appointment with dental practice had been to before for NHS dental care - % Can't remember
+Q44_1pct,Successful in getting an NHS dental appointment - % Yes
+Q44_2pct,Successful in getting an NHS dental appointment - % No
+Q44_3pct,Successful in getting an NHS dental appointment - % Can't remember
+Q45_1pct,Overall experience of NHS dental services - % Very good
+Q45_2pct,Overall experience of NHS dental services - % Fairly good
+Q45_3pct,Overall experience of NHS dental services - % Neither good nor poor
+Q45_4pct,Overall experience of NHS dental services - % Fairly poor
+Q45_5pct,Overall experience of NHS dental services - % Very poor
+Q46_1pct,Reason haven’t tried to get an NHS dental appointment in last two years - % I haven't needed to visit a dentist
+Q46_2pct,Reason haven’t tried to get an NHS dental appointment in last two years - % I no longer have any natural teeth
+Q46_3pct,Reason haven’t tried to get an NHS dental appointment in last two years - % I haven't had time to visit a dentist
+Q46_4pct,Reason haven’t tried to get an NHS dental appointment in last two years - % I don't like going to the dentist
+Q46_5pct,Reason haven’t tried to get an NHS dental appointment in last two years - % I didn't think I could get an NHS dentist
+Q46_6pct,Reason haven’t tried to get an NHS dental appointment in last two years - % I'm on a waiting list for an NHS dentist
+Q46_7pct,Reason haven’t tried to get an NHS dental appointment in last two years - % I stayed with my dentist when they changed from NHS to private
+Q46_8pct,Reason haven’t tried to get an NHS dental appointment in last two years - % I prefer to go to a private dentist
+Q46_9pct,Reason haven’t tried to get an NHS dental appointment in last two years - % NHS dental care is too expensive
+Q46_10pct,Reason haven’t tried to get an NHS dental appointment in last two years - % Another reason
+Q47_1pct,Gender - % Male
+Q47_2pct,Gender - % Female
+Q48_Merged_1pct,Age - % Under 16
+Q48_Merged_2pct,Age - % 16 to 24
+Q48_Merged_3pct,Age - % 25 to 34
+Q48_Merged_4pct,Age - % 35 to 44
+Q48_Merged_5pct,Age - % 45 to 54
+Q48_Merged_6pct,Age - % 55 to 64
+Q48_Merged_7pct,Age - % 65 to 74
+Q48_Merged_8pct,Age - % 75 to 84
+Q48_Merged_9pct,Age - % 85 or over
+Q49_1pct,Ethnic group - % White - English/Welsh/Scottish/Northern Irish/British
+Q49_2pct,Ethnic group - % White - Irish
+Q49_3pct,Ethnic group - % White - Gypsy or Irish Traveller
+Q49_4pct,Ethnic group - % White - Any other White background
+Q49_5pct,Ethnic group - % Mixed - White and Black Caribbean
+Q49_6pct,Ethnic group - % Mixed - White and Black African
+Q49_7pct,Ethnic group - % Mixed - White and Asian
+Q49_8pct,Ethnic group - % Mixed - Any other Mixed/Multiple Ethnic background
+Q49_9pct,Ethnic group - % Asian/Asian British - Indian
+Q49_10pct,Ethnic group - % Asian/Asian British - Pakistani
+Q49_11pct,Ethnic group - % Asian/Asian British - Bangladeshi
+Q49_12pct,Ethnic group - % Asian/Asian British - Chinese
+Q49_13pct,Ethnic group - % Asian/Asian British - Any other Asian background
+Q49_14pct,Ethnic group - % Black/African/Caribbean/Black British - African
+Q49_15pct,Ethnic group - % Black/African/Caribbean/Black British - Caribbean
+Q49_16pct,Ethnic group - % Black/African/Caribbean/Black British - Any other Black/African/Caribbean background
+Q49_17pct,Ethnic group - % Arab
+Q49_18pct,Ethnic group - % Any other ethnic group
+Q50_1pct,Working status - % Full-time paid work (30 hours or more each week)
+Q50_2pct,Working status - % Part-time paid work (under 30 hours each week)
+Q50_3pct,"Working status - % Full-time education at school, college or university"
+Q50_4pct,Working status - % Unemployed
+Q50_5pct,Working status - % Permanently sick or disabled
+Q50_6pct,Working status - % Fully retired from work
+Q50_7pct,Working status - % Looking after the family or home
+Q50_8pct,Working status - % Doing something else
+Q53_1pct,Parent or legal guardian - % Yes
+Q53_2pct,Parent or legal guardian - % No
+Q56_1pct,Look after/provide support to family etc. for physical or mental ill health/problems in old age - % No
+Q56_2pct,"Look after/provide support to family etc. for physical or mental ill health/problems in old age - % Yes, 1 to 9 hours a week"
+Q56_3pct,"Look after/provide support to family etc. for physical or mental ill health/problems in old age - % Yes, 10 to 19 hours a week"
+Q56_4pct,"Look after/provide support to family etc. for physical or mental ill health/problems in old age - % Yes, 20 to 34 hours a week"
+Q56_5pct,"Look after/provide support to family etc. for physical or mental ill health/problems in old age - % Yes, 35 to 49 hours a week"
+Q56_6pct,"Look after/provide support to family etc. for physical or mental ill health/problems in old age - % Yes, 50 or more hours a week"
+Q56_23456pct,"Look after/provide support to family etc. for physical or mental ill health/problems in old age - % Summary result - Yes (Combined all 'yes' responses, using base for summary result)"
+Q54_1pct,Deaf and use sign language - % Yes
+Q54_2pct,Deaf and use sign language - % No
+Q55_1pct,Smoking habits - % Never smoked
+Q55_2pct,Smoking habits - % Former smoker
+Q55_3pct,Smoking habits - % Occasional smoker
+Q55_4pct,Smoking habits - % Regular smoker
+Q57_1pct,Sexual orientation - % Heterosexual or straight
+Q57_2pct,Sexual orientation - % Gay or lesbian
+Q57_3pct,Sexual orientation - % Bisexual
+Q57_4pct,Sexual orientation - % Other
+Q57_5pct,Sexual orientation - % I would prefer not to say
+Q58_1pct,Religion - % No religion
+Q58_2pct,Religion - % Buddhist
+Q58_3pct,Religion - % Christian
+Q58_4pct,Religion - % Hindu
+Q58_5pct,Religion - % Jewish
+Q58_6pct,Religion - % Muslim
+Q58_7pct,Religion - % Sikh
+Q58_8pct,Religion - % Other
+Q58_9pct,Religion - % I would prefer not to say
+Q3ci_lower_wil,95% confidence interval around % who say it was easy getting through to someone at GP practice on the phone (lower)
+Q3ci_upper_wil,95% confidence interval around % who say it was easy getting through to someone at GP practice on the phone (upper)
+Q4ci_lower_wil,95% confidence interval around % who found receptionists at GP practice helpful (lower)
+Q4ci_upper_wil,95% confidence interval around % who found receptionists at GP practice helpful (upper)
+Q73ci_lower_wil,95% confidence interval around % who say it was easy to use their GP practice's website to look for information or access services (lower)
+Q73ci_upper_wil,95% confidence interval around % who say it was easy to use their GP practice's website to look for information or access services (upper)
+Q25ci_lower_wil,95% confidence interval around % who say they are satisfied with the general practice appointment times that are available to them (lower)
+Q25ci_upper_wil,95% confidence interval around % who say they are satisfied with the general practice appointment times that are available to them (upper)
+Q8ci_lower_wil,95% confidence interval around % who say they have a preferred GP (lower)
+Q8ci_upper_wil,95% confidence interval around % who say they have a preferred GP (upper)
+Q9ci_lower_wil,"95% confidence interval around % who see their preferred doctor always, almost always or a lot of the time (lower)"
+Q9ci_upper_wil,"95% confidence interval around % who see their preferred doctor always, almost always or a lot of the time (upper)"
+Q75ci_lower_wil,95% confidence interval around % who say they last tried to make a general practice appointment in the past 6 months (lower)
+Q75ci_upper_wil,95% confidence interval around % who say they last tried to make a general practice appointment in the past 6 months (upper)
+Q77ci_lower_wil,95% confidence interval around % who say they were concerned about their health or the health of the person they were making the appointment for (lower)
+Q77ci_upper_wil,95% confidence interval around % who say they were concerned about their health or the health of the person they were making the appointment for (upper)
+Q79ci_lower_wil,95% confidence interval around % who say they were offered at least one choice of appointment (lower)
+Q79ci_upper_wil,95% confidence interval around % who say they were offered at least one choice of appointment (upper)
+Q80ci_lower_wil,95% confidence interval around % who say they were satisfied with the type of appointment they were offered (lower)
+Q80ci_upper_wil,95% confidence interval around % who say they were satisfied with the type of appointment they were offered (upper)
+Q80_12ci_lower_wil,95% confidence interval around % who say they accepted the appointment they were offered (lower)
+Q80_12ci_upper_wil,95% confidence interval around % who say they accepted the appointment they were offered (upper)
+Q18ci_lower_wil,95% confidence interval around % who found the overall experience of making an appointment good (lower)
+Q18ci_upper_wil,95% confidence interval around % who found the overall experience of making an appointment good (upper)
+Q83ci_lower_wil,95% confidence interval around % who say their last general practice appointment was in the past 6 months (lower)
+Q83ci_upper_wil,95% confidence interval around % who say their last general practice appointment was in the past 6 months (upper)
+Q85ci_lower_wil,95% confidence interval around % who say they waited less than 15 minutes after their appointment time to see or speak to the healthcare professional (lower)
+Q85ci_upper_wil,95% confidence interval around % who say they waited less than 15 minutes after their appointment time to see or speak to the healthcare professional (upper)
+Q86aci_lower_wil,95% confidence interval around % who say the healthcare professional was good at giving them enough time (lower)
+Q86aci_upper_wil,95% confidence interval around % who say the healthcare professional was good at giving them enough time (upper)
+Q86bci_lower_wil,95% confidence interval around % who say the healthcare professional was good at listening to them (lower)
+Q86bci_upper_wil,95% confidence interval around % who say the healthcare professional was good at listening to them (upper)
+Q86eci_lower_wil,95% confidence interval around % who say the healthcare professional was good at treating them with care and concern (lower)
+Q86eci_upper_wil,95% confidence interval around % who say the healthcare professional was good at treating them with care and concern (upper)
+Q87ci_lower_wil,95% confidence interval around % who say they felt their healthcare professional recognised and/or understood their mental health needs (lower)
+Q87ci_upper_wil,95% confidence interval around % who say they felt their healthcare professional recognised and/or understood their mental health needs (upper)
+Q88ci_lower_wil,95% confidence interval around % who say they were involved as much as they wanted to be in decisions about their care and treatment (lower)
+Q88ci_upper_wil,95% confidence interval around % who say they were involved as much as they wanted to be in decisions about their care and treatment (upper)
+Q89ci_lower_wil,95% confidence interval around % who say they had confidence and trust in the healthcare professional they saw or spoke to (lower)
+Q89ci_upper_wil,95% confidence interval around % who say they had confidence and trust in the healthcare professional they saw or spoke to (upper)
+Q90ci_lower_wil,95% confidence interval around % who say their needs were met (lower)
+Q90ci_upper_wil,95% confidence interval around % who say their needs were met (upper)
+Q28ci_lower_wil,95% confidence interval around % who say their overall experience of the GP practice was good (lower)
+Q28ci_upper_wil,95% confidence interval around % who say their overall experience of the GP practice was good (upper)
+Q30_recoded_ci_lower_wil,"95% confidence interval around % who say they have a long-term physical or mental health condition, disability or illness (lower)"
+Q30_recoded_ci_upper_wil,"95% confidence interval around % who say they have a long-term physical or mental health condition, disability or illness (upper)"
+Q93ci_lower_wil,95% confidence interval around % who say their long-term condition reduced their ability to carry out their day-to-day activities (lower)
+Q93ci_upper_wil,95% confidence interval around % who say their long-term condition reduced their ability to carry out their day-to-day activities (upper)
+Q94ci_lower_wil,95% confidence interval around % who say they were confident they could manage any issues arising from their condition or conditions (lower)
+Q94ci_upper_wil,95% confidence interval around % who say they were confident they could manage any issues arising from their condition or conditions (upper)
+Q32ci_lower_wil,95% confidence interval around % who say they had enough support in the last 12 months from local services/organisations to help manage long-term conditions (lower)
+Q32ci_upper_wil,95% confidence interval around % who say they had enough support in the last 12 months from local services/organisations to help manage long-term conditions (upper)
+Q96ci_lower_wil,95% confidence interval around % who say they had a conversation with a healthcare professional from their GP practice to discuss what was important to them when managing their condition (lower)
+Q96ci_upper_wil,95% confidence interval around % who say they had a conversation with a healthcare professional from their GP practice to discuss what was important to them when managing their condition (upper)
+Q97ci_lower_wil,95% confidence interval around % who say they agreed a plan with a healthcare professional from their GP practice to manage their condition or conditions (lower)
+Q97ci_upper_wil,95% confidence interval around % who say they agreed a plan with a healthcare professional from their GP practice to manage their condition or conditions (upper)
+Q98ci_lower_wil,95% confidence interval around % who say they found their plan helpful to manage their condition or conditions (lower)
+Q98ci_upper_wil,95% confidence interval around % who say they found their plan helpful to manage their condition or conditions (upper)
+Q99ci_lower_wil,95% confidence interval around % who say they were given or offered a written or printed copy of this plan (lower)
+Q99ci_upper_wil,95% confidence interval around % who say they were given or offered a written or printed copy of this plan (upper)
+Q68ci_lower_wil,95% confidence interval around % who say they thought how quickly they received care or support on that occasion was about right (lower)
+Q68ci_upper_wil,95% confidence interval around % who say they thought how quickly they received care or support on that occasion was about right (upper)
+Q69ci_lower_wil,95% confidence interval around % who say they had confidence and trust in the person they saw or spoke to on that occasion (lower)
+Q69ci_upper_wil,95% confidence interval around % who say they had confidence and trust in the person they saw or spoke to on that occasion (upper)
+Q70ci_lower_wil,95% confidence interval around % who say they had a good overall experience of NHS services when their GP practice was closed (lower)
+Q70ci_upper_wil,95% confidence interval around % who say they had a good overall experience of NHS services when their GP practice was closed (upper)
+Q56ci_lower_wil,"95% confidence interval around % who say they looked after or give help or support to family members, friends, neighbours or others because of either long-term physical or mental ill health / disability, or problems related to old age (lower)"
+Q56ci_upper_wil,"95% confidence interval around % who say they looked after or give help or support to family members, friends, neighbours or others because of either long-term physical or mental ill health / disability, or problems related to old age (upper)"

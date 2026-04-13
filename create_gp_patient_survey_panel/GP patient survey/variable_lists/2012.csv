@@ -1,0 +1,902 @@
+Variable,Description
+Practice_Code,Practice code
+Practice_Name,Practice name
+SHA_Name,SHA name
+pct_code,PCT code
+ONS_PCT_Code,ONS PCT Code
+PCT_Name,PCT name
+distributed,Total survey forms distributed
+received,Total completed forms received
+resprate,Response rate
+Y6W2_distributed,Survey forms distributed (Jan-Mar 2012 only)
+Y6W2_received,Completed forms received (Jan-Mar 2012 only)
+Y6W2_resprate,Response rate (Jan-Mar 2012 only)
+Q1base,Last seen or spoke to a GP - total responses
+Q1_1,Last seen or spoke to a GP - In the past 3 months
+Q1_2,Last seen or spoke to a GP - Between 3 and 6 months ago
+Q1_3,Last seen or spoke to a GP - Between 6 and 12 months ago
+Q1_4,Last seen or spoke to a GP - More than 12 months ago
+Q1_5,Last seen or spoke to a GP - I have never seen a GP from my GP surgery
+Q1_12,Last seen or spoke to a GP - In the past 6 months
+Q2base,Last seen or spoke to a nurse - total responses
+Q2_1,Last seen or spoke to a nurse - In the past 3 months
+Q2_2,Last seen or spoke to a nurse - Between 3 and 6 months
+Q2_3,Last seen or spoke to a nurse - Between 6 and 12 months
+Q2_4,Last seen or spoke to a nurse - More than 12 months ago
+Q2_5,Last seen or spoke to a nurse - I have never seen a GP from my GP surgery
+Q2_12,Last seen or spoke to a nurse - In the past 6 months
+Q3base,Ease of getting through to someone at GP surgery on the phone - total responses
+Q3_1,Ease of getting through to someone at GP surgery on the phone - Very easy
+Q3_2,Ease of getting through to someone at GP surgery on the phone - Fairly easy
+Q3_3,Ease of getting through to someone at GP surgery on the phone - Not very easy
+Q3_4,Ease of getting through to someone at GP surgery on the phone - Not at all easy
+Q3_5,Ease of getting through to someone at GP surgery on the phone - Haven't tried
+Q3_12,Ease of getting through to someone at GP surgery on the phone - Easy (total)
+Q4base,Helpfulness of receptionists at GP surgery - total responses
+Q4_1,Helpfulness of receptionists at GP surgery - Very helpful
+Q4_2,Helpfulness of receptionists at GP surgery - Fairly helpful
+Q4_3,Helpfulness of receptionists at GP surgery - Not very helpful
+Q4_4,Helpfulness of receptionists at GP surgery - Not at all helpful
+Q4_5,Helpfulness of receptionists at GP surgery - Don't know
+Q4_12,Helpfulness of receptionists at GP surgery - Helpful (total)
+Q5base,Overheard in reception area - total responses
+Q5_1,"Overheard in reception area - Yes, but I don't mind"
+Q5_2,"Overheard in reception area - Yes, and I'm not happy about it"
+Q5_3,"Overheard in reception area - No, other patients can't overhear"
+Q5_4,Overheard in reception area - Don't know
+Q5_12,Overheard in reception area - Yes (total)
+Q6base,How normally book appointments to see a GP or nurse...total responses
+Q6_1,How normally book appointments to see a GP or nurse...In person
+Q6_2,How normally book appointments to see a GP or nurse...By phone
+Q6_3,How normally book appointments to see a GP or nurse...By fax machine
+Q6_4,How normally book appointments to see a GP or nurse...Online
+Q6_5,How normally book appointments to see a GP or nurse...Doesn’t apply
+Q7base,Preferred methods to book appointments at GP surgery...total responses
+Q7_1,Preferred methods to book appointments at GP surgery...In person
+Q7_2,Preferred methods to book appointments at GP surgery...By phone
+Q7_3,Preferred methods to book appointments at GP surgery...By fax machine
+Q7_4,Preferred methods to book appointments at GP surgery...Online
+Q7_5,Preferred methods to book appointments at GP surgery...No preference
+Q8base,Have a preferred GP - total responses
+Q8_1,Have a preferred GP - Yes
+Q8_2,Have a preferred GP - No
+Q8_3,Have a preferred GP - There is usually only one GP in my GP surgery
+Q9base,Frequency of seeing preferred GP - total responses
+Q9_1,Frequency of seeing preferred GP - Always or almost always
+Q9_2,Frequency of seeing preferred GP - A lot of the time
+Q9_3,Frequency of seeing preferred GP - Some of the time
+Q9_4,Frequency of seeing preferred GP - Never or almost never
+Q9_5,Frequency of seeing preferred GP - Not tried at this GP surgery
+Q9_12,"Frequency of seeing preferred GP - always, almost always or a lot of the time (total)"
+Q10base,Last time wanted to see/speak to GP or nurse: What did you want to do?...total responses
+Q10_1,Last time wanted to see/speak to GP or nurse: What did you want to do?...See GP at surgery
+Q10_2,Last time wanted to see/speak to GP or nurse: What did you want to do?...See nurse at surgery
+Q10_3,Last time wanted to see/speak to GP or nurse: What did you want to do?...Speak to GP on phone
+Q10_4,Last time wanted to see/speak to GP or nurse: What did you want to do?...Speak to nurse on phone
+Q10_5,Last time wanted to see/speak to GP or nurse: What did you want to do?...Have someone visit at home
+Q10_6,Last time wanted to see/speak to GP or nurse: What did you want to do?...Didn't mind / Wasn't sure
+Q11base,When did you want to see or speak to them? - total responses
+Q11_1,When did you want to see or speak to them? - On the same day
+Q11_2,When did you want to see or speak to them? - On the next working day
+Q11_3,When did you want to see or speak to them? - A few days later
+Q11_4,When did you want to see or speak to them? - A week or more later
+Q11_5,When did you want to see or speak to them? - I didn't have a specific day in mind
+Q11_6,When did you want to see or speak to them? - Can't remember
+Q12base,Able to get an appointment to see or speak to someone - total responses
+Q12_1,Able to get an appointment to see or speak to someone - Yes
+Q12_2,"Able to get an appointment to see or speak to someone - Yes, but I had to call back closer or on the day I wanted the appointment"
+Q12_3,Able to get an appointment to see or speak to someone - No
+Q12_4,Able to get an appointment to see or speak to someone - Can't remember
+Q12_12,Able to get an appointment to see or speak to someone - Yes (total)
+Q13base,What type of appointment did you get?...total responses
+Q13_1,What type of appointment did you get?...Appointment to see a GP at the surgery
+Q13_2,What type of appointment did you get?...Appointment to see a nurse at the surgery
+Q13_3,What type of appointment did you get?...Appointment to speak to a GP on the phone
+Q13_4,What type of appointment did you get?...Appointment to speak to a nurse on the phone
+Q13_5,What type of appointment did you get?...Appointment for someone to visit me at my home
+Q14base,How long until actually saw or spoke to GP / nurse - total responses
+Q14_1,How long until actually saw or spoke to GP / nurse - On the same day
+Q14_2,How long until actually saw or spoke to GP / nurse - On the next working day
+Q14_3,How long until actually saw or spoke to GP / nurse - A few days later
+Q14_4,How long until actually saw or spoke to GP / nurse - A week or more later
+Q14_5,How long until actually saw or spoke to GP / nurse - Can't remember
+Q15base,Convenience of appointment - total responses
+Q15_1,Convenience of appointment - Very convenient
+Q15_2,Convenience of appointment - Fairly convenient
+Q15_3,Convenience of appointment - Not very convenient
+Q15_4,Convenience of appointment - Not at all convenient
+Q15_12,Convenience of appointment - Convenient (total)
+Q16base,Reason for not being able to get an appointment / the appointment offered was inconvenient - total responses
+Q16_1,Reason for not being able to get an appointment / the appointment offered was inconvenient - There weren't any appointments for the day I wanted
+Q16_2,Reason for not being able to get an appointment / the appointment offered was inconvenient - There weren't any appointments for the time I wanted
+Q16_3,Reason for not being able to get an appointment / the appointment offered was inconvenient - I couldn't see my preferred GP
+Q16_4,Reason for not being able to get an appointment / the appointment offered was inconvenient - I couldn't book ahead at my GP surgery
+Q16_5,Reason for not being able to get an appointment / the appointment offered was inconvenient - Another reason
+Q17base,What did you do on that occasion? - total responses
+Q17_1,What did you do on that occasion? - Went to the appointment I was offered
+Q17_2,What did you do on that occasion? - Got an appointment for a different day
+Q17_3,What did you do on that occasion? - Had a consultation over the phone
+Q17_4,What did you do on that occasion? - Went to A&E / a walk-in centre
+Q17_5,What did you do on that occasion? - Saw a pharmacist
+Q17_6,What did you do on that occasion? - Decided to contact my surgery another time
+Q17_7,What did you do on that occasion? - Didn't see or speak to anyone
+Q18base,Overall experience of making an appointment - total responses
+Q18_1,Overall experience of making an appointment - Very good
+Q18_2,Overall experience of making an appointment - Fairly good
+Q18_3,Overall experience of making an appointment - Neither good nor poor
+Q18_4,Overall experience of making an appointment - Fairly poor
+Q18_5,Overall experience of making an appointment - Very poor
+Q18_12,Overall experience of making an appointment - Good (total)
+Q19base,Waiting time at surgery - total responses
+Q19_1,Waiting time at surgery - I don't normally have appointments at a particular time
+Q19_2,Waiting time at surgery - Less than 5 minutes
+Q19_3,Waiting time at surgery - 5 to 15 minutes
+Q19_4,Waiting time at surgery - More than 15 minutes
+Q19_5,Waiting time at surgery - Can't remember
+Q20base,Impression of waiting time at surgery - total responses
+Q20_1,Impression of waiting time at surgery - I don't normally have to wait too long
+Q20_2,Impression of waiting time at surgery - I have to wait a bit too long
+Q20_3,Impression of waiting time at surgery - I have to wait far too long
+Q20_4,Impression of waiting time at surgery - No opinion / doesn't apply
+Q21abase,Rating of GP giving you enough time - total responses
+Q21a_1,Rating of GP giving you enough time - Very good
+Q21a_2,Rating of GP giving you enough time - Good
+Q21a_3,Rating of GP giving you enough time - Neither good nor poor
+Q21a_4,Rating of GP giving you enough time - Poor
+Q21a_5,Rating of GP giving you enough time - Very poor
+Q21a_6,Rating of GP giving you enough time - Doesn't apply
+Q21a_12,Rating of GP giving you enough time - Good (total)
+Q21bbase,Rating of GP listening to you - total responses
+Q21b_1,Rating of GP listening to you - Very good
+Q21b_2,Rating of GP listening to you - Good
+Q21b_3,Rating of GP listening to you - Neither good nor poor
+Q21b_4,Rating of GP listening to you - Poor
+Q21b_5,Rating of GP listening to you - Very poor
+Q21b_6,Rating of GP listening to you - Doesn't apply
+Q21b_12,Rating of GP listening to you - Good (total)
+Q21cbase,Rating of GP explaining tests and treatments - total responses
+Q21c_1,Rating of GP explaining tests and treatments - Very good
+Q21c_2,Rating of GP explaining tests and treatments - Good
+Q21c_3,Rating of GP explaining tests and treatments - Neither good nor poor
+Q21c_4,Rating of GP explaining tests and treatments - Poor
+Q21c_5,Rating of GP explaining tests and treatments - Very poor
+Q21c_6,Rating of GP explaining tests and treatments - Doesn't apply
+Q21c_12,Rating of GP explaining tests and treatments - Good (total)
+Q21dbase,Rating of GP involving you in decisions about your care - total responses
+Q21d_1,Rating of GP involving you in decisions about your care - Very good
+Q21d_2,Rating of GP involving you in decisions about your care - Good
+Q21d_3,Rating of GP involving you in decisions about your care - Neither good nor poor
+Q21d_4,Rating of GP involving you in decisions about your care - Poor
+Q21d_5,Rating of GP involving you in decisions about your care - Very poor
+Q21d_6,Rating of GP involving you in decisions about your care - Doesn't apply
+Q21d_12,Rating of GP involving you in decisions about your care - Good (total)
+Q21ebase,Rating of GP treating you with care and concern - total responses
+Q21e_1,Rating of GP treating you with care and concern - Very good
+Q21e_2,Rating of GP treating you with care and concern - Good
+Q21e_3,Rating of GP treating you with care and concern - Neither good nor poor
+Q21e_4,Rating of GP treating you with care and concern - Poor
+Q21e_5,Rating of GP treating you with care and concern - Very poor
+Q21e_6,Rating of GP treating you with care and concern - Doesn't apply
+Q21e_12,Rating of GP treating you with care and concern - Good (total)
+Q22base,Confidence and trust in GP - total responses
+Q22_1,"Confidence and trust in GP - Yes, definitely"
+Q22_2,"Confidence and trust in GP - Yes, to some extent"
+Q22_3,"Confidence and trust in GP - No, not at all"
+Q22_4,Confidence and trust in GP - Don't know / can't say
+Q22_12,Confidence and trust in GP - Yes (total)
+Q23abase,Rating of nurse giving you enough time - total responses
+Q23a_1,Rating of nurse giving you enough time - Very good
+Q23a_2,Rating of nurse giving you enough time - Good
+Q23a_3,Rating of nurse giving you enough time - Neither good nor poor
+Q23a_4,Rating of nurse giving you enough time - Poor
+Q23a_5,Rating of nurse giving you enough time - Very poor
+Q23a_6,Rating of nurse giving you enough time - Doesn't apply
+Q23a_12,Rating of nurse giving you enough time - Good (total)
+Q23bbase,Rating of nurse listening to you - total responses
+Q23b_1,Rating of nurse listening to you - Very good
+Q23b_2,Rating of nurse listening to you - Good
+Q23b_3,Rating of nurse listening to you - Neither good nor poor
+Q23b_4,Rating of nurse listening to you - Poor
+Q23b_5,Rating of nurse listening to you - Very poor
+Q23b_6,Rating of nurse listening to you - Doesn't apply
+Q23b_12,Rating of nurse listening to you - Good (total)
+Q23cbase,Rating of nurse explaining tests and treatments - total responses
+Q23c_1,Rating of nurse explaining tests and treatments - Very good
+Q23c_2,Rating of nurse explaining tests and treatments - Good
+Q23c_3,Rating of nurse explaining tests and treatments - Neither good nor poor
+Q23c_4,Rating of nurse explaining tests and treatments - Poor
+Q23c_5,Rating of nurse explaining tests and treatments - Very poor
+Q23c_6,Rating of nurse explaining tests and treatments - Doesn't apply
+Q23c_12,Rating of nurse explaining tests and treatments - Good (total)
+Q23dbase,Rating of nurse involving you in decisions about your care - total responses
+Q23d_1,Rating of nurse involving you in decisions about your care - Very good
+Q23d_2,Rating of nurse involving you in decisions about your care - Good
+Q23d_3,Rating of nurse involving you in decisions about your care - Neither good nor poor
+Q23d_4,Rating of nurse involving you in decisions about your care - Poor
+Q23d_5,Rating of nurse involving you in decisions about your care - Very poor
+Q23d_6,Rating of nurse involving you in decisions about your care - Doesn't apply
+Q23d_12,Rating of nurse involving you in decisions about your care - Good (total)
+Q23ebase,Rating of nurse treating you with care and concern - total responses
+Q23e_1,Rating of nurse treating you with care and concern - Very good
+Q23e_2,Rating of nurse treating you with care and concern - Good
+Q23e_3,Rating of nurse treating you with care and concern - Neither good nor poor
+Q23e_4,Rating of nurse treating you with care and concern - Poor
+Q23e_5,Rating of nurse treating you with care and concern - Very poor
+Q23e_6,Rating of nurse treating you with care and concern - Doesn't apply
+Q23e_12,Rating of nurse treating you with care and concern - Good (total)
+Q24base,Confidence and trust in nurse - total responses
+Q24_1,"Confidence and trust in nurse - Yes, definitely"
+Q24_2,"Confidence and trust in nurse - Yes, to some extent"
+Q24_3,"Confidence and trust in nurse - No, not at all"
+Q24_4,Confidence and trust in nurse - Don't know / can't say
+Q24_12,Confidence and trust in nurse - Yes (total)
+Q25base,Satisfaction with opening hours - total responses
+Q25_1,Satisfaction with opening hours - Very satisfied
+Q25_2,Satisfaction with opening hours - Fairly satisfied
+Q25_3,Satisfaction with opening hours - Neither satisfied nor dissatisfied
+Q25_4,Satisfaction with opening hours - Fairly dissatisfied
+Q25_5,Satisfaction with opening hours - Very dissatisfied
+Q25_6,Satisfaction with opening hours - I'm not sure when my GP surgery is open
+Q25_12,Satisfaction with opening hours - Satisfied (total)
+Q26base,Is your GP surgery currently open at times that are convenient for you? - total responses
+Q26_1,Is your GP surgery currently open at times that are convenient for you? - Yes
+Q26_2,Is your GP surgery currently open at times that are convenient for you? - No
+Q26_3,Is your GP surgery currently open at times that are convenient for you? - Don't know
+Q27base,Additional opening times that would make it easier to see or speak to someone...total responses
+Q27_1,Additional opening times that would make it easier to see or speak to someone...Before 8am
+Q27_2,Additional opening times that would make it easier to see or speak to someone...At lunchtime
+Q27_3,Additional opening times that would make it easier to see or speak to someone...After 6.30pm
+Q27_4,Additional opening times that would make it easier to see or speak to someone...On a Saturday
+Q27_5,Additional opening times that would make it easier to see or speak to someone...On a Sunday
+Q27_6,Additional opening times that would make it easier to see or speak to someone...None of these
+Q28base,Overall experience of GP surgery - total responses
+Q28_1,Overall experience of GP surgery - Very good
+Q28_2,Overall experience of GP surgery - Fairly good
+Q28_3,Overall experience of GP surgery - Neither good nor poor
+Q28_4,Overall experience of GP surgery - Fairly poor
+Q28_5,Overall experience of GP surgery - Very poor
+Q28_12,Overall experience of GP surgery - Good (total)
+Q29base,Recommending GP surgery to someone who has just moved to the local area - total responses
+Q29_1,"Recommending GP surgery to someone who has just moved to the local area - Yes, would definitely recommend"
+Q29_2,"Recommending GP surgery to someone who has just moved to the local area - Yes, would probably recommend"
+Q29_3,Recommending GP surgery to someone who has just moved to the local area - Not sure
+Q29_4,"Recommending GP surgery to someone who has just moved to the local area - No, would probably not recommend"
+Q29_5,"Recommending GP surgery to someone who has just moved to the local area - No, would definitely not recommend"
+Q29_6,Recommending GP surgery to someone who has just moved to the local area - Don't know
+Q29_12,Recommending GP surgery to someone who has just moved to the local area - Yes (total)
+Q30_recoded_base,Long-standing health condition - total responses
+Q30_recoded_1,Long-standing health condition - Yes
+Q30_recoded_2,Long-standing health condition - No
+Q30_recoded_3,Long-standing health condition - Don't know / can't say
+Q31base,Medical conditions...total responses
+Q31_1,Medical conditions...Alzheimer's disease or dementia
+Q31_2,Medical conditions...Angina or long-term heart problem
+Q31_3,Medical conditions...Arthritis or long-term joint problem
+Q31_4,Medical conditions...Asthma or long-term chest problem
+Q31_5,Medical conditions...Blindness or severe visual impairment
+Q31_6,Medical conditions...Cancer in the last 5 years
+Q31_7,Medical conditions...Deafness or severe hearing impairment
+Q31_8,Medical conditions...Diabetes
+Q31_9,Medical conditions...Epilepsy
+Q31_10,Medical conditions...High blood pressure
+Q31_11,Medical conditions...Kidney or liver disease
+Q31_12,Medical conditions...Learning difficulty
+Q31_13,Medical conditions...Long-term back problem
+Q31_14,Medical conditions...Long-term mental health problem
+Q31_15,Medical conditions...Long-term neurological problem
+Q31_16,Medical conditions...Another long-term condition
+Q31_17,Medical conditions...None of these conditions
+Q31_18,Medical conditions…Prefer not to say
+Q31_116,Medical conditions…Any medical condition (total)
+Q32base,"Last 6 months, enough support from local services/organisations to help manage long-term conditions - total responses"
+Q32_1,"Last 6 months, enough support from local services/organisations to help manage long-term conditions - Yes, definitely"
+Q32_2,"Last 6 months, enough support from local services/organisations to help manage long-term conditions - Yes, to some extent"
+Q32_3,"Last 6 months, enough support from local services/organisations to help manage long-term conditions - No"
+Q32_4,"Last 6 months, enough support from local services/organisations to help manage long-term conditions - I haven't needed such support"
+Q32_5,"Last 6 months, enough support from local services/organisations to help manage long-term conditions - Don't know / can't say"
+Q32_12,"Last 6 months, enough support from local services/organisations to help manage long-term conditions - Yes (total)"
+Q33base,Confidence in managing own health - total responses
+Q33_1,Confidence in managing own health - Very confident
+Q33_2,Confidence in managing own health - Fairly confident
+Q33_3,Confidence in managing own health - Not very confident
+Q33_4,Confidence in managing own health - Not at all confident
+Q33_12,Confidence in managing own health - Confident (total)
+Q34abase,State of health today...Mobility - total responses
+Q34a_1,State of health today...Mobility - I have no problems in walking about
+Q34a_2,State of health today...Mobility - I have some problems in walking about
+Q34a_3,State of health today...Mobility - I am confined to bed
+Q34bbase,State of health today...Self-Care - total responses
+Q34b_1,State of health today...Self-Care - I have no problems with self-care
+Q34b_2,State of health today...Self-Care - I have some problems washing or dressing myself
+Q34b_3,State of health today...Self-Care - I am unable to wash or dress myself
+Q34cbase,State of health today...Usual Activities - total responses
+Q34c_1,State of health today...Usual Activities - I have no problems with performing my usual activities
+Q34c_2,State of health today...Usual Activities - I have some problems with performing my usual activities
+Q34c_3,State of health today...Usual Activities - I am unable to perform my usual activities
+Q34dbase,State of health today...Pain/Discomfort - total responses
+Q34d_1,State of health today...Pain/Discomfort - I have no pain or discomfort
+Q34d_2,State of health today...Pain/Discomfort - I have moderate pain or discomfort
+Q34d_3,State of health today...Pain/Discomfort - I have extreme pain or discomfort
+Q34ebase,State of health today...Anxiety/Depression - total responses
+Q34e_1,State of health today...Anxiety/Depression - I am not anxious or depressed
+Q34e_2,State of health today...Anxiety/Depression - I am moderately anxious or depressed
+Q34e_3,State of health today...Anxiety/Depression - I am extremely anxious or depressed
+Q35base,Activities limited today due to recent illness or injury - total responses
+Q35_1,"Activities limited today due to recent illness or injury - Yes, limited a lot"
+Q35_2,"Activities limited today due to recent illness or injury - Yes, limited a little"
+Q35_3,Activities limited today due to recent illness or injury - No
+Q35_12,Activities limited today due to recent illness or injury - Yes (total)
+Q36base,Know how to contact an out-of-hours GP service - total responses
+Q36_1,Know how to contact an out-of-hours GP service - Yes
+Q36_2,Know how to contact an out-of-hours GP service - No
+Q37base,Tried to call an out-of-hours GP service in past 6 months...total responses
+Q37_1,"Tried to call an out-of-hours GP service in past 6 months...Yes, for myself"
+Q37_2,"Tried to call an out-of-hours GP service in past 6 months...Yes, for someone else"
+Q37_3,Tried to call an out-of-hours GP service in past 6 months...No
+Q37_12,Tried to call an out-of-hours GP service in past 6 months...Yes (total)
+Q38base,Ease of contacting the out-of-hours GP service by telephone - total responses
+Q38_1,Ease of contacting the out-of-hours GP service by telephone - Very easy
+Q38_2,Ease of contacting the out-of-hours GP service by telephone - Fairly easy
+Q38_3,Ease of contacting the out-of-hours GP service by telephone - Not very easy
+Q38_4,Ease of contacting the out-of-hours GP service by telephone - Not at all easy
+Q38_5,Ease of contacting the out-of-hours GP service by telephone - Don't know / didn't make contact
+Q38_12,Ease of contacting the out-of-hours GP service by telephone - Easy (total)
+Q39base,Impression of how quickly care from out-of-hours GP service received - total responses
+Q39_1,Impression of how quickly care from out-of-hours GP service received - It was about right
+Q39_2,Impression of how quickly care from out-of-hours GP service received - It took too long
+Q39_3,Impression of how quickly care from out-of-hours GP service received - Don't know / doesn't apply
+Q40base,Confidence and trust in out-of-hours clinician - total responses
+Q40_1,"Confidence and trust in out-of-hours clinician - Yes, definitely"
+Q40_2,"Confidence and trust in out-of-hours clinician - Yes, to some extent"
+Q40_3,"Confidence and trust in out-of-hours clinician - No, not at all"
+Q40_4,Confidence and trust in out-of-hours clinician - Don't know / can't say
+Q40_12,Confidence and trust in out-of-hours clinician - Yes (total)
+Q41base,Overall experience of out-of-hours GP services - total responses
+Q41_1,Overall experience of out-of-hours GP services - Very good
+Q41_2,Overall experience of out-of-hours GP services - Fairly good
+Q41_3,Overall experience of out-of-hours GP services - Neither good nor poor
+Q41_4,Overall experience of out-of-hours GP services - Fairly poor
+Q41_5,Overall experience of out-of-hours GP services - Very poor
+Q41_12,Overall experience of out-of-hours GP services - Good (total)
+Q42base,When did you last try to get an NHS dental appointment for yourself? - total responses
+Q42_1,When did you last try to get an NHS dental appointment for yourself? - In the last 3 months
+Q42_2,When did you last try to get an NHS dental appointment for yourself? - Between 3 and 6 months ago
+Q42_3,When did you last try to get an NHS dental appointment for yourself? - Between 6 months and a year ago
+Q42_4,When did you last try to get an NHS dental appointment for yourself? - Between 1 and 2 years ago
+Q42_5,When did you last try to get an NHS dental appointment for yourself? - More than 2 years ago
+Q42_6,When did you last try to get an NHS dental appointment for yourself? - I have never tried to get an NHS dental appointment
+Q43base,Was appointment with a dental practice you had been to before for NHS dental care? - total responses
+Q43_1,Was appointment with a dental practice you had been to before for NHS dental care? - Yes
+Q43_2,Was appointment with a dental practice you had been to before for NHS dental care? - No
+Q43_3,Was appointment with a dental practice you had been to before for NHS dental care? - Can't remember
+Q44base,Were you successful in getting an NHS dental appointment? - total responses
+Q44_1,Were you successful in getting an NHS dental appointment? - Yes
+Q44_2,Were you successful in getting an NHS dental appointment? - No
+Q44_3,Were you successful in getting an NHS dental appointment? - Can't remember
+Q45base,Overall experience of NHS dental services - total responses
+Q45_1,Overall experience of NHS dental services - Very good
+Q45_2,Overall experience of NHS dental services - Fairly good
+Q45_3,Overall experience of NHS dental services - Neither good nor poor
+Q45_4,Overall experience of NHS dental services - Fairly poor
+Q45_5,Overall experience of NHS dental services - Very poor
+Q46base,Why haven’t you tried to get an NHS dental appointment in the last two years? - total responses
+Q46_1,Why haven’t you tried to get an NHS dental appointment in the last two years? - I haven't needed to visit a dentist
+Q46_2,Why haven’t you tried to get an NHS dental appointment in the last two years? - I no longer have any natural teeth
+Q46_3,Why haven’t you tried to get an NHS dental appointment in the last two years? - I haven't had time to visit a dentist
+Q46_4,Why haven’t you tried to get an NHS dental appointment in the last two years? - I don't like going to the dentist
+Q46_5,Why haven’t you tried to get an NHS dental appointment in the last two years? - I didn't think I could get an NHS dentist
+Q46_6,Why haven’t you tried to get an NHS dental appointment in the last two years? - I'm on a waiting list for an NHS dentist
+Q46_7,Why haven’t you tried to get an NHS dental appointment in the last two years? - I stayed with my dentist when they changed from NHS to private
+Q46_8,Why haven’t you tried to get an NHS dental appointment in the last two years? - I prefer to go to a private dentist
+Q46_9,Why haven’t you tried to get an NHS dental appointment in the last two years? - NHS dental care is too expensive
+Q46_10,Why haven’t you tried to get an NHS dental appointment in the last two years? - Another reason
+Q47base,Gender - total responses
+Q47_1,Gender - Male
+Q47_2,Gender - Female
+Q48base,Age - total responses
+Q48_1,Age - Under 18
+Q48_2,Age - 18 to 24
+Q48_3,Age - 25 to 34
+Q48_4,Age - 35 to 44
+Q48_5,Age - 45 to 54
+Q48_6,Age - 55 to 64
+Q48_7,Age - 65 to 74
+Q48_8,Age - 75 to 84
+Q48_9,Age - 85 or over
+Q49base,Ethnic group - total responses
+Q49_1,Ethnic group - White - English/Welsh/Scottish/Northern Irish/British
+Q49_2,Ethnic group - White - Irish
+Q49_3,Ethnic group - White - Gypsy or Irish Traveller
+Q49_4,Ethnic group - White - Any other White background
+Q49_5,Ethnic group - Mixed - White and Black Caribbean
+Q49_6,Ethnic group - Mixed - White and Black African
+Q49_7,Ethnic group - Mixed - White and Asian
+Q49_8,Ethnic group - Mixed - Any other Mixed/Multiple Ethnic background
+Q49_9,Ethnic group - Asian/Asian British - Indian
+Q49_10,Ethnic group - Asian/Asian British - Pakistani
+Q49_11,Ethnic group - Asian/Asian British - Bangladeshi
+Q49_12,Ethnic group - Asian/Asian British - Chinese
+Q49_13,Ethnic group - Asian/Asian British - Any other Asian background
+Q49_14,Ethnic group - Black/African/Caribbean/Black British - African
+Q49_15,Ethnic group - Black/African/Caribbean/Black British - Caribbean
+Q49_16,Ethnic group - Black/African/Caribbean/Black British - Any other Black/African/Caribbean background
+Q49_17,Ethnic group - Arab
+Q49_18,Ethnic group - Any other ethnic group
+Q50base,Working status - total responses
+Q50_1,Working status - Full-time paid work
+Q50_2,Working status - Part-time paid work
+Q50_3,"Working status - Full-time education at school, college or university"
+Q50_4,Working status - Unemployed
+Q50_5,Working status - Permanently sick or disabled
+Q50_6,Working status - Fully retired from work
+Q50_7,Working status - Looking after the home
+Q50_8,Working status - Doing something else
+Q51base,Journey time from home to work - total responses
+Q51_1,Journey time from home to work - Up to 30 minutes
+Q51_2,Journey time from home to work - 31 minutes to 1 hour
+Q51_3,Journey time from home to work - More than 1 hour
+Q51_4,Journey time from home to work - I live on site
+Q52base,Can take time away from work to see GP - total responses
+Q52_1,Can take time away from work to see GP - Yes
+Q52_2,Can take time away from work to see GP - No
+Q53base,Parent or legal guardian - total responses
+Q53_1,Parent or legal guardian - Yes
+Q53_2,Parent or legal guardian - No
+Q54base,Deaf and use sign language - total responses
+Q54_1,Deaf and use sign language - Yes
+Q54_2,Deaf and use sign language - No
+Q55base,Smoking habits - total responses
+Q55_1,Smoking habits - Never smoked
+Q55_2,Smoking habits - Former smoker
+Q55_3,Smoking habits - Occasional smoker
+Q55_4,Smoking habits - Regular smoker
+Q56base,Look after/provide support to family etc. for physical or mental ill health/problems in old age - total responses
+Q56_1,Look after/provide support to family etc. for physical or mental ill health/problems in old age - No
+Q56_2,"Look after/provide support to family etc. for physical or mental ill health/problems in old age - Yes, 1-9 hours a week"
+Q56_3,"Look after/provide support to family etc. for physical or mental ill health/problems in old age - Yes, 10-19 hours a week"
+Q56_4,"Look after/provide support to family etc. for physical or mental ill health/problems in old age - Yes, 20-34 hours a week"
+Q56_5,"Look after/provide support to family etc. for physical or mental ill health/problems in old age - Yes, 35-49 hours a week"
+Q56_6,"Look after/provide support to family etc. for physical or mental ill health/problems in old age - Yes, 50+ hours a week"
+Q57base,Sexual orientation - total responses
+Q57_1,Sexual orientation - Heterosexual / straight
+Q57_2,Sexual orientation - Gay / Lesbian
+Q57_3,Sexual orientation - Bisexual
+Q57_4,Sexual orientation - Other
+Q57_5,Sexual orientation - I would prefer not to say
+Q58base,Religion - total responses
+Q58_1,Religion - No religion
+Q58_2,Religion - Buddhist
+Q58_3,Religion - Christian
+Q58_4,Religion - Hindu
+Q58_5,Religion - Jewish
+Q58_6,Religion - Muslim
+Q58_7,Religion - Sikh
+Q58_8,Religion - Other
+Q58_9,Religion - I would prefer not to say
+Q1_1pct,Last seen or spoke to a GP - % In the past 3 months
+Q1_2pct,Last seen or spoke to a GP - % Between 3 and 6 months ago
+Q1_3pct,Last seen or spoke to a GP - % Between 6 and 12 months ago
+Q1_4pct,Last seen or spoke to a GP - % More than 12 months ago
+Q1_5pct,Last seen or spoke to a GP - % I have never seen a GP from my GP surgery
+Q1_12pct,Last seen or spoke to a GP - % In the past 6 months
+Q2_1pct,Last seen or spoke to a nurse - % In the past 3 months
+Q2_2pct,Last seen or spoke to a nurse - % Between 3 and 6 months
+Q2_3pct,Last seen or spoke to a nurse - % Between 6 and 12 months
+Q2_4pct,Last seen or spoke to a nurse - % More than 12 months ago
+Q2_5pct,Last seen or spoke to a nurse - % I have never seen a GP from my GP surgery
+Q2_12pct,Last seen or spoke to a nurse - % In the past 6 months
+Q3_1pct,Ease of getting through to someone at GP surgery on the phone - % Very easy
+Q3_2pct,Ease of getting through to someone at GP surgery on the phone - % Fairly easy
+Q3_3pct,Ease of getting through to someone at GP surgery on the phone - % Not very easy
+Q3_4pct,Ease of getting through to someone at GP surgery on the phone - % Not at all easy
+Q3_5pct,Ease of getting through to someone at GP surgery on the phone - % Haven't tried
+Q3_12pct,Ease of getting through to someone at GP surgery on the phone - % Easy (total)
+Q4_1pct,Helpfulness of receptionists at GP surgery - % Very helpful
+Q4_2pct,Helpfulness of receptionists at GP surgery - % Fairly helpful
+Q4_3pct,Helpfulness of receptionists at GP surgery - % Not very helpful
+Q4_4pct,Helpfulness of receptionists at GP surgery - % Not at all helpful
+Q4_5pct,Helpfulness of receptionists at GP surgery - % Don't know
+Q4_12pct,Helpfulness of receptionists at GP surgery - % Helpful (total)
+Q5_1pct,"Overheard in reception area - % Yes, but I don't mind"
+Q5_2pct,"Overheard in reception area - % Yes, and I'm not happy about it"
+Q5_3pct,"Overheard in reception area - % No, other patients can't overhear"
+Q5_4pct,Overheard in reception area - % Don't know
+Q5_12pct,Overheard in reception area - % Yes (total)
+Q6_1pct,How normally book appointments to see a GP or nurse - % In person
+Q6_2pct,How normally book appointments to see a GP or nurse - % By phone
+Q6_3pct,How normally book appointments to see a GP or nurse - % By fax machine
+Q6_4pct,How normally book appointments to see a GP or nurse - % Online
+Q6_5pct,How normally book appointments to see a GP or nurse - % Doesn’t apply
+Q7_1pct,Preferred methods to book appointments at GP surgery - % In person
+Q7_2pct,Preferred methods to book appointments at GP surgery - % By phone
+Q7_3pct,Preferred methods to book appointments at GP surgery - % By fax machine
+Q7_4pct,Preferred methods to book appointments at GP surgery - % Online
+Q7_5pct,Preferred methods to book appointments at GP surgery - % No preference
+Q8_1pct,Have a preferred GP - % Yes
+Q8_2pct,Have a preferred GP - % No
+Q8_3pct,Have a preferred GP - % There is usually only one GP in my GP surgery
+Q9_1pct,Frequency of seeing preferred GP - % Always or almost always
+Q9_2pct,Frequency of seeing preferred GP - % A lot of the time
+Q9_3pct,Frequency of seeing preferred GP - % Some of the time
+Q9_4pct,Frequency of seeing preferred GP - % Never or almost never
+Q9_5pct,Frequency of seeing preferred GP - % Not tried at this GP surgery
+Q9_12pct,"Frequency of seeing preferred GP - % always, almost always or a lot of the time (total)"
+Q10_1pct,Last time wanted to see/speak to GP or nurse: What did you want to do? - % See GP at surgery
+Q10_2pct,Last time wanted to see/speak to GP or nurse: What did you want to do? - % See nurse at surgery
+Q10_3pct,Last time wanted to see/speak to GP or nurse: What did you want to do? - % Speak to GP on phone
+Q10_4pct,Last time wanted to see/speak to GP or nurse: What did you want to do? - % Speak to nurse on phone
+Q10_5pct,Last time wanted to see/speak to GP or nurse: What did you want to do? - % Have someone visit at home
+Q10_6pct,Last time wanted to see/speak to GP or nurse: What did you want to do? - % Didn't mind / Wasn't sure
+Q11_1pct,When did you want to see or speak to them? - % On the same day
+Q11_2pct,When did you want to see or speak to them? - % On the next working day
+Q11_3pct,When did you want to see or speak to them? - % A few days later
+Q11_4pct,When did you want to see or speak to them? - % A week or more later
+Q11_5pct,When did you want to see or speak to them? - % I didn't have a specific day in mind
+Q11_6pct,When did you want to see or speak to them? - % Can't remember
+Q12_1pct,Able to get an appointment to see or speak to someone - % Yes
+Q12_2pct,"Able to get an appointment to see or speak to someone - % Yes, but I had to call back closer or on the day I wanted the appointment"
+Q12_3pct,Able to get an appointment to see or speak to someone - % No
+Q12_4pct,Able to get an appointment to see or speak to someone - % Can't remember
+Q12_12pct,Able to get an appointment to see or speak to someone - % Yes (total)
+Q13_1pct,What type of appointment did you get? - % Appointment to see a GP at the surgery
+Q13_2pct,What type of appointment did you get? - % Appointment to see a nurse at the surgery
+Q13_3pct,What type of appointment did you get? - % Appointment to speak to a GP on the phone
+Q13_4pct,What type of appointment did you get? - % Appointment to speak to a nurse on the phone
+Q13_5pct,What type of appointment did you get? - % Appointment for someone to visit me at my home
+Q14_1pct,How long until actually saw or spoke to GP / nurse - % On the same day
+Q14_2pct,How long until actually saw or spoke to GP / nurse - % On the next working day
+Q14_3pct,How long until actually saw or spoke to GP / nurse - % A few days later
+Q14_4pct,How long until actually saw or spoke to GP / nurse - % A week or more later
+Q14_5pct,How long until actually saw or spoke to GP / nurse - % Can't remember
+Q15_1pct,Convenience of appointment - % Very convenient
+Q15_2pct,Convenience of appointment - % Fairly convenient
+Q15_3pct,Convenience of appointment - % Not very convenient
+Q15_4pct,Convenience of appointment - % Not at all convenient
+Q15_12pct,Convenience of appointment - % Convenient (total)
+Q16_1pct,Reason for not being able to get an appointment / the appointment offered was inconvenient - % There weren't any appointments for the day I wanted
+Q16_2pct,Reason for not being able to get an appointment / the appointment offered was inconvenient - % There weren't any appointments for the time I wanted
+Q16_3pct,Reason for not being able to get an appointment / the appointment offered was inconvenient - % I couldn't see my preferred GP
+Q16_4pct,Reason for not being able to get an appointment / the appointment offered was inconvenient - % I couldn't book ahead at my GP surgery
+Q16_5pct,Reason for not being able to get an appointment / the appointment offered was inconvenient - % Another reason
+Q17_1pct,What did you do on that occasion? - % Went to the appointment I was offered
+Q17_2pct,What did you do on that occasion? - % Got an appointment for a different day
+Q17_3pct,What did you do on that occasion? - % Had a consultation over the phone
+Q17_4pct,What did you do on that occasion? - % Went to A&E / a walk-in centre
+Q17_5pct,What did you do on that occasion? - % Saw a pharmacist
+Q17_6pct,What did you do on that occasion? - % Decided to contact my surgery another time
+Q17_7pct,What did you do on that occasion? - % Didn't see or speak to anyone
+Q18_1pct,Overall experience of making an appointment - % Very good
+Q18_2pct,Overall experience of making an appointment - % Fairly good
+Q18_3pct,Overall experience of making an appointment - % Neither good nor poor
+Q18_4pct,Overall experience of making an appointment - % Fairly poor
+Q18_5pct,Overall experience of making an appointment - % Very poor
+Q18_12pct,Overall experience of making an appointment - % Good (total)
+Q19_1pct,Waiting time at surgery - % I don't normally have appointments at a particular time
+Q19_2pct,Waiting time at surgery - % Less than 5 minutes
+Q19_3pct,Waiting time at surgery - % 5 to 15 minutes
+Q19_4pct,Waiting time at surgery - % More than 15 minutes
+Q19_5pct,Waiting time at surgery - % Can't remember
+Q20_1pct,Impression of waiting time at surgery - % I don't normally have to wait too long
+Q20_2pct,Impression of waiting time at surgery - % I have to wait a bit too long
+Q20_3pct,Impression of waiting time at surgery - % I have to wait far too long
+Q20_4pct,Impression of waiting time at surgery - % No opinion / doesn't apply
+Q21a_1pct,Rating of GP giving you enough time - % Very good
+Q21a_2pct,Rating of GP giving you enough time - % Good
+Q21a_3pct,Rating of GP giving you enough time - % Neither good nor poor
+Q21a_4pct,Rating of GP giving you enough time - % Poor
+Q21a_5pct,Rating of GP giving you enough time - % Very poor
+Q21a_6pct,Rating of GP giving you enough time - % Doesn't apply
+Q21a_12pct,Rating of GP giving you enough time - % Good (total)
+Q21b_1pct,Rating of GP listening to you - % Very good
+Q21b_2pct,Rating of GP listening to you - % Good
+Q21b_3pct,Rating of GP listening to you - % Neither good nor poor
+Q21b_4pct,Rating of GP listening to you - % Poor
+Q21b_5pct,Rating of GP listening to you - % Very poor
+Q21b_6pct,Rating of GP listening to you - % Doesn't apply
+Q21b_12pct,Rating of GP listening to you - % Good (total)
+Q21c_1pct,Rating of GP explaining tests and treatments - % Very good
+Q21c_2pct,Rating of GP explaining tests and treatments - % Good
+Q21c_3pct,Rating of GP explaining tests and treatments - % Neither good nor poor
+Q21c_4pct,Rating of GP explaining tests and treatments - % Poor
+Q21c_5pct,Rating of GP explaining tests and treatments - % Very poor
+Q21c_6pct,Rating of GP explaining tests and treatments - % Doesn't apply
+Q21c_12pct,Rating of GP explaining tests and treatments - % Good (total)
+Q21d_1pct,Rating of GP involving you in decisions about your care - % Very good
+Q21d_2pct,Rating of GP involving you in decisions about your care - % Good
+Q21d_3pct,Rating of GP involving you in decisions about your care - % Neither good nor poor
+Q21d_4pct,Rating of GP involving you in decisions about your care - % Poor
+Q21d_5pct,Rating of GP involving you in decisions about your care - % Very poor
+Q21d_6pct,Rating of GP involving you in decisions about your care - % Doesn't apply
+Q21d_12pct,Rating of GP involving you in decisions about your care - % Good (total)
+Q21e_1pct,Rating of GP treating you with care and concern - % Very good
+Q21e_2pct,Rating of GP treating you with care and concern - % Good
+Q21e_3pct,Rating of GP treating you with care and concern - % Neither good nor poor
+Q21e_4pct,Rating of GP treating you with care and concern - % Poor
+Q21e_5pct,Rating of GP treating you with care and concern - % Very poor
+Q21e_6pct,Rating of GP treating you with care and concern - % Doesn't apply
+Q21e_12pct,Rating of GP treating you with care and concern - % Good (total)
+Q22_1pct,"Confidence and trust in GP - % Yes, definitely"
+Q22_2pct,"Confidence and trust in GP - % Yes, to some extent"
+Q22_3pct,"Confidence and trust in GP - % No, not at all"
+Q22_4pct,Confidence and trust in GP - % Don't know / can't say
+Q22_12pct,Confidence and trust in GP - % Yes (total)
+Q23a_1pct,Rating of nurse giving you enough time - % Very good
+Q23a_2pct,Rating of nurse giving you enough time - % Good
+Q23a_3pct,Rating of nurse giving you enough time - % Neither good nor poor
+Q23a_4pct,Rating of nurse giving you enough time - % Poor
+Q23a_5pct,Rating of nurse giving you enough time - % Very poor
+Q23a_6pct,Rating of nurse giving you enough time - % Doesn't apply
+Q23a_12pct,Rating of nurse giving you enough time - % Good (total)
+Q23b_1pct,Rating of nurse listening to you - % Very good
+Q23b_2pct,Rating of nurse listening to you - % Good
+Q23b_3pct,Rating of nurse listening to you - % Neither good nor poor
+Q23b_4pct,Rating of nurse listening to you - % Poor
+Q23b_5pct,Rating of nurse listening to you - % Very poor
+Q23b_6pct,Rating of nurse listening to you - % Doesn't apply
+Q23b_12pct,Rating of nurse listening to you - % Good (total)
+Q23c_1pct,Rating of nurse explaining tests and treatments - % Very good
+Q23c_2pct,Rating of nurse explaining tests and treatments - % Good
+Q23c_3pct,Rating of nurse explaining tests and treatments - % Neither good nor poor
+Q23c_4pct,Rating of nurse explaining tests and treatments - % Poor
+Q23c_5pct,Rating of nurse explaining tests and treatments - % Very poor
+Q23c_6pct,Rating of nurse explaining tests and treatments - % Doesn't apply
+Q23c_12pct,Rating of nurse explaining tests and treatments - % Good (total)
+Q23d_1pct,Rating of nurse involving you in decisions about your care - % Very good
+Q23d_2pct,Rating of nurse involving you in decisions about your care - % Good
+Q23d_3pct,Rating of nurse involving you in decisions about your care - % Neither good nor poor
+Q23d_4pct,Rating of nurse involving you in decisions about your care - % Poor
+Q23d_5pct,Rating of nurse involving you in decisions about your care - % Very poor
+Q23d_6pct,Rating of nurse involving you in decisions about your care - % Doesn't apply
+Q23d_12pct,Rating of nurse involving you in decisions about your care - % Good (total)
+Q23e_1pct,Rating of nurse treating you with care and concern - % Very good
+Q23e_2pct,Rating of nurse treating you with care and concern - % Good
+Q23e_3pct,Rating of nurse treating you with care and concern - % Neither good nor poor
+Q23e_4pct,Rating of nurse treating you with care and concern - % Poor
+Q23e_5pct,Rating of nurse treating you with care and concern - % Very poor
+Q23e_6pct,Rating of nurse treating you with care and concern - % Doesn't apply
+Q23e_12pct,Rating of nurse treating you with care and concern - % Good (total)
+Q24_1pct,"Confidence and trust in nurse - % Yes, definitely"
+Q24_2pct,"Confidence and trust in nurse - % Yes, to some extent"
+Q24_3pct,"Confidence and trust in nurse - % No, not at all"
+Q24_4pct,Confidence and trust in nurse - % Don't know / can't say
+Q24_12pct,Confidence and trust in nurse - % Yes (total)
+Q25_1pct,Satisfaction with opening hours - % Very satisfied
+Q25_2pct,Satisfaction with opening hours - % Fairly satisfied
+Q25_3pct,Satisfaction with opening hours - % Neither satisfied nor dissatisfied
+Q25_4pct,Satisfaction with opening hours - % Fairly dissatisfied
+Q25_5pct,Satisfaction with opening hours - % Very dissatisfied
+Q25_6pct,Satisfaction with opening hours - % I'm not sure when my GP surgery is open
+Q25_12pct,Satisfaction with opening hours - % Satisfied (total)
+Q26_1pct,Is your GP surgery currently open at times that are convenient for you? - % Yes
+Q26_2pct,Is your GP surgery currently open at times that are convenient for you? - % No
+Q26_3pct,Is your GP surgery currently open at times that are convenient for you? - % Don't know
+Q27_1pct,Additional opening times that would make it easier to see or speak to someone - % Before 8am
+Q27_2pct,Additional opening times that would make it easier to see or speak to someone - % At lunchtime
+Q27_3pct,Additional opening times that would make it easier to see or speak to someone - % After 6.30pm
+Q27_4pct,Additional opening times that would make it easier to see or speak to someone - % On a Saturday
+Q27_5pct,Additional opening times that would make it easier to see or speak to someone - % On a Sunday
+Q27_6pct,Additional opening times that would make it easier to see or speak to someone - % None of these
+Q28_1pct,Overall experience of GP surgery - % Very good
+Q28_2pct,Overall experience of GP surgery - % Fairly good
+Q28_3pct,Overall experience of GP surgery - % Neither good nor poor
+Q28_4pct,Overall experience of GP surgery - % Fairly poor
+Q28_5pct,Overall experience of GP surgery - % Very poor
+Q28_12pct,Overall experience of GP surgery - % Good (total)
+Q29_1pct,"Recommending GP surgery to someone who has just moved to the local area - % Yes, would definitely recommend"
+Q29_2pct,"Recommending GP surgery to someone who has just moved to the local area - % Yes, would probably recommend"
+Q29_3pct,Recommending GP surgery to someone who has just moved to the local area - % Not sure
+Q29_4pct,"Recommending GP surgery to someone who has just moved to the local area - % No, would probably not recommend"
+Q29_5pct,"Recommending GP surgery to someone who has just moved to the local area - % No, would definitely not recommend"
+Q29_6pct,Recommending GP surgery to someone who has just moved to the local area - % Don't know
+Q29_12pct,Recommending GP surgery to someone who has just moved to the local area - % Yes (total)
+Q30_recoded_1pct,Long-standing health condition - % Yes
+Q30_recoded_2pct,Long-standing health condition - % No
+Q30_recoded_3pct,Long-standing health condition - % Don't know / can't say
+Q31_1pct,Medical conditions - % Alzheimer's disease or dementia
+Q31_2pct,Medical conditions - % Angina or long-term heart problem
+Q31_3pct,Medical conditions - % Arthritis or long-term joint problem
+Q31_4pct,Medical conditions - % Asthma or long-term chest problem
+Q31_5pct,Medical conditions - % Blindness or severe visual impairment
+Q31_6pct,Medical conditions - % Cancer in the last 5 years
+Q31_7pct,Medical conditions - % Deafness or severe hearing impairment
+Q31_8pct,Medical conditions - % Diabetes
+Q31_9pct,Medical conditions - % Epilepsy
+Q31_10pct,Medical conditions - % High blood pressure
+Q31_11pct,Medical conditions - % Kidney or liver disease
+Q31_12pct,Medical conditions - % Learning difficulty
+Q31_13pct,Medical conditions - % Long-term back problem
+Q31_14pct,Medical conditions - % Long-term mental health problem
+Q31_15pct,Medical conditions - % Long-term neurological problem
+Q31_16pct,Medical conditions - % Another long-term condition
+Q31_17pct,Medical conditions - % None of these conditions
+Q31_18pct,Medical conditions…Prefer not to say
+Q32_1pct,"Last 6 months, enough support from local services/organisations to help manage long-term conditions - % Yes, definitely"
+Q32_2pct,"Last 6 months, enough support from local services/organisations to help manage long-term conditions - % Yes, to some extent"
+Q32_3pct,"Last 6 months, enough support from local services/organisations to help manage long-term conditions - % No"
+Q32_4pct,"Last 6 months, enough support from local services/organisations to help manage long-term conditions - % I haven't needed such support"
+Q32_5pct,"Last 6 months, enough support from local services/organisations to help manage long-term conditions - % Don't know / can't say"
+Q32_12pct,"Last 6 months, enough support from local services/organisations to help manage long-term conditions - % Yes (total)"
+Q33_1pct,Confidence in managing own health - % Very confident
+Q33_2pct,Confidence in managing own health - % Fairly confident
+Q33_3pct,Confidence in managing own health - % Not very confident
+Q33_4pct,Confidence in managing own health - % Not at all confident
+Q33_12pct,Confidence in managing own health - % Confident (total)
+Q34a_1pct,State of health today...Mobility - % I have no problems in walking about
+Q34a_2pct,State of health today...Mobility - % I have some problems in walking about
+Q34a_3pct,State of health today...Mobility - % I am confined to bed
+Q34b_1pct,State of health today...Self-Care - % I have no problems with self-care
+Q34b_2pct,State of health today...Self-Care - % I have some problems washing or dressing myself
+Q34b_3pct,State of health today...Self-Care - % I am unable to wash or dress myself
+Q34c_1pct,State of health today...Usual Activities - % I have no problems with performing my usual activities
+Q34c_2pct,State of health today...Usual Activities - % I have some problems with performing my usual activities
+Q34c_3pct,State of health today...Usual Activities - % I am unable to perform my usual activities
+Q34d_1pct,State of health today...Pain/Discomfort - % I have no pain or discomfort
+Q34d_2pct,State of health today...Pain/Discomfort - % I have moderate pain or discomfort
+Q34d_3pct,State of health today...Pain/Discomfort - % I have extreme pain or discomfort
+Q34e_1pct,State of health today...Anxiety/Depression - % I am not anxious or depressed
+Q34e_2pct,State of health today...Anxiety/Depression - % I am moderately anxious or depressed
+Q34e_3pct,State of health today...Anxiety/Depression - % I am extremely anxious or depressed
+Q35_1pct,"Activities limited today due to recent illness or injury - % Yes, limited a lot"
+Q35_2pct,"Activities limited today due to recent illness or injury - % Yes, limited a little"
+Q35_3pct,Activities limited today due to recent illness or injury - % No
+Q35_12pct,Activities limited today due to recent illness or injury - % Yes (total)
+Q36_1pct,Know how to contact an out-of-hours GP service - % Yes
+Q36_2pct,Know how to contact an out-of-hours GP service - % No
+Q37_1pct,"Tried to call an out-of-hours GP service in past 6 months - % Yes, for myself"
+Q37_2pct,"Tried to call an out-of-hours GP service in past 6 months - % Yes, for someone else"
+Q37_3pct,Tried to call an out-of-hours GP service in past 6 months - % No
+Q37_12pct,Tried to call an out-of-hours GP service in past 6 months - % Yes (total)
+Q38_1pct,Ease of contacting the out-of-hours GP service by telephone - % Very easy
+Q38_2pct,Ease of contacting the out-of-hours GP service by telephone - % Fairly easy
+Q38_3pct,Ease of contacting the out-of-hours GP service by telephone - % Not very easy
+Q38_4pct,Ease of contacting the out-of-hours GP service by telephone - % Not at all easy
+Q38_5pct,Ease of contacting the out-of-hours GP service by telephone - % Don't know / didn't make contact
+Q38_12pct,Ease of contacting the out-of-hours GP service by telephone - % Easy (total)
+Q39_1pct,Impression of how quickly care from out-of-hours GP service received - % It was about right
+Q39_2pct,Impression of how quickly care from out-of-hours GP service received - % It took too long
+Q39_3pct,Impression of how quickly care from out-of-hours GP service received - % Don't know / doesn't apply
+Q40_1pct,"Confidence and trust in out-of-hours clinician - % Yes, definitely"
+Q40_2pct,"Confidence and trust in out-of-hours clinician - % Yes, to some extent"
+Q40_3pct,"Confidence and trust in out-of-hours clinician - % No, not at all"
+Q40_4pct,Confidence and trust in out-of-hours clinician - % Don't know / can't say
+Q40_12pct,Confidence and trust in out-of-hours clinician - % Yes (total)
+Q41_1pct,Overall experience of out-of-hours GP services - % Very good
+Q41_2pct,Overall experience of out-of-hours GP services - % Fairly good
+Q41_3pct,Overall experience of out-of-hours GP services - % Neither good nor poor
+Q41_4pct,Overall experience of out-of-hours GP services - % Fairly poor
+Q41_5pct,Overall experience of out-of-hours GP services - % Very poor
+Q41_12pct,Overall experience of out-of-hours GP services - % Good (total)
+Q42_1pct,When did you last try to get an NHS dental appointment for yourself? - % In the last 3 months
+Q42_2pct,When did you last try to get an NHS dental appointment for yourself? - % Between 3 and 6 months ago
+Q42_3pct,When did you last try to get an NHS dental appointment for yourself? - % Between 6 months and a year ago
+Q42_4pct,When did you last try to get an NHS dental appointment for yourself? - % Between 1 and 2 years ago
+Q42_5pct,When did you last try to get an NHS dental appointment for yourself? - % More than 2 years ago
+Q42_6pct,When did you last try to get an NHS dental appointment for yourself? - % I have never tried to get an NHS dental appointment
+Q43_1pct,Was appointment with a dental practice you had been to before for NHS dental care? - % Yes
+Q43_2pct,Was appointment with a dental practice you had been to before for NHS dental care? - % No
+Q43_3pct,Was appointment with a dental practice you had been to before for NHS dental care? - % Can't remember
+Q44_1pct,Were you successful in getting an NHS dental appointment? - % Yes
+Q44_2pct,Were you successful in getting an NHS dental appointment? - % No
+Q44_3pct,Were you successful in getting an NHS dental appointment? - % Can't remember
+Q45_1pct,Overall experience of NHS dental services - % Very good
+Q45_2pct,Overall experience of NHS dental services - % Fairly good
+Q45_3pct,Overall experience of NHS dental services - % Neither good nor poor
+Q45_4pct,Overall experience of NHS dental services - % Fairly poor
+Q45_5pct,Overall experience of NHS dental services - % Very poor
+Q46_1pct,Why haven’t you tried to get an NHS dental appointment in the last two years? - % I haven't needed to visit a dentist
+Q46_2pct,Why haven’t you tried to get an NHS dental appointment in the last two years? - % I no longer have any natural teeth
+Q46_3pct,Why haven’t you tried to get an NHS dental appointment in the last two years? - % I haven't had time to visit a dentist
+Q46_4pct,Why haven’t you tried to get an NHS dental appointment in the last two years? - % I don't like going to the dentist
+Q46_5pct,Why haven’t you tried to get an NHS dental appointment in the last two years? - % I didn't think I could get an NHS dentist
+Q46_6pct,Why haven’t you tried to get an NHS dental appointment in the last two years? - % I'm on a waiting list for an NHS dentist
+Q46_7pct,Why haven’t you tried to get an NHS dental appointment in the last two years? - % I stayed with my dentist when they changed from NHS to private
+Q46_8pct,Why haven’t you tried to get an NHS dental appointment in the last two years? - % I prefer to go to a private dentist
+Q46_9pct,Why haven’t you tried to get an NHS dental appointment in the last two years? - % NHS dental care is too expensive
+Q46_10pct,Why haven’t you tried to get an NHS dental appointment in the last two years? - % Another reason
+Q47_1pct,Gender - % Male
+Q47_2pct,Gender - % Female
+Q48_1pct,Age - % Under 18
+Q48_2pct,Age - % 18 to 24
+Q48_3pct,Age - % 25 to 34
+Q48_4pct,Age - % 35 to 44
+Q48_5pct,Age - % 45 to 54
+Q48_6pct,Age - % 55 to 64
+Q48_7pct,Age - % 65 to 74
+Q48_8pct,Age - % 75 to 84
+Q48_9pct,Age - % 85 or over
+Q49_1pct,Ethnic group - % White - English/Welsh/Scottish/Northern Irish/British
+Q49_2pct,Ethnic group - % White - Irish
+Q49_3pct,Ethnic group - % White - Gypsy or Irish Traveller
+Q49_4pct,Ethnic group - % White - Any other White background
+Q49_5pct,Ethnic group - % Mixed - White and Black Caribbean
+Q49_6pct,Ethnic group - % Mixed - White and Black African
+Q49_7pct,Ethnic group - % Mixed - White and Asian
+Q49_8pct,Ethnic group - % Mixed - Any other Mixed/Multiple Ethnic background
+Q49_9pct,Ethnic group - % Asian/Asian British - Indian
+Q49_10pct,Ethnic group - % Asian/Asian British - Pakistani
+Q49_11pct,Ethnic group - % Asian/Asian British - Bangladeshi
+Q49_12pct,Ethnic group - % Asian/Asian British - Chinese
+Q49_13pct,Ethnic group - % Asian/Asian British - Any other Asian background
+Q49_14pct,Ethnic group - % Black/African/Caribbean/Black British - African
+Q49_15pct,Ethnic group - % Black/African/Caribbean/Black British - Caribbean
+Q49_16pct,Ethnic group - % Black/African/Caribbean/Black British - Any other Black/African/Caribbean background
+Q49_17pct,Ethnic group - % Arab
+Q49_18pct,Ethnic group - % Any other ethnic group
+Q50_1pct,Working status - % Full-time paid work
+Q50_2pct,Working status - % Part-time paid work
+Q50_3pct,"Working status - % Full-time education at school, college or university"
+Q50_4pct,Working status - % Unemployed
+Q50_5pct,Working status - % Permanently sick or disabled
+Q50_6pct,Working status - % Fully retired from work
+Q50_7pct,Working status - % Looking after the home
+Q50_8pct,Working status - % Doing something else
+Q51_1pct,Journey time from home to work - % Up to 30 minutes
+Q51_2pct,Journey time from home to work - % 31 minutes to 1 hour
+Q51_3pct,Journey time from home to work - % More than 1 hour
+Q51_4pct,Journey time from home to work - % I live on site
+Q52_1pct,Can take time away from work to see GP - % Yes
+Q52_2pct,Can take time away from work to see GP - % No
+Q53_1pct,Parent or legal guardian - % Yes
+Q53_2pct,Parent or legal guardian - % No
+Q54_1pct,Deaf and use sign language - % Yes
+Q54_2pct,Deaf and use sign language - % No
+Q55_1pct,Smoking habits - % Never smoked
+Q55_2pct,Smoking habits - % Former smoker
+Q55_3pct,Smoking habits - % Occasional smoker
+Q55_4pct,Smoking habits - % Regular smoker
+Q56_1pct,Look after/provide support to family etc. for physical or mental ill health/problems in old age - % No
+Q56_2pct,"Look after/provide support to family etc. for physical or mental ill health/problems in old age - % Yes, 1-9 hours a week"
+Q56_3pct,"Look after/provide support to family etc. for physical or mental ill health/problems in old age - % Yes, 10-19 hours a week"
+Q56_4pct,"Look after/provide support to family etc. for physical or mental ill health/problems in old age - % Yes, 20-34 hours a week"
+Q56_5pct,"Look after/provide support to family etc. for physical or mental ill health/problems in old age - % Yes, 35-49 hours a week"
+Q56_6pct,"Look after/provide support to family etc. for physical or mental ill health/problems in old age - % Yes, 50+ hours a week"
+Q57_1pct,Sexual orientation - % Heterosexual / straight
+Q57_2pct,Sexual orientation - % Gay / Lesbian
+Q57_3pct,Sexual orientation - % Bisexual
+Q57_4pct,Sexual orientation - % Other
+Q57_5pct,Sexual orientation - % I would prefer not to say
+Q58_1pct,Religion - % No religion
+Q58_2pct,Religion - % Buddhist
+Q58_3pct,Religion - % Christian
+Q58_4pct,Religion - % Hindu
+Q58_5pct,Religion - % Jewish
+Q58_6pct,Religion - % Muslim
+Q58_7pct,Religion - % Sikh
+Q58_8pct,Religion - % Other
+Q58_9pct,Religion - % I would prefer not to say
+Q1ci,95% confidence interval around % who have last seen or spoke to a GP in the last six months (+/-)
+Q2ci,95% confidence interval around % who have last seen or spoke to a nurse in the last six months (+/-)
+Q3ci,95% confidence interval around % who say it was easy getting through to someone at GP surgery on the phone (+/-)
+Q4ci,95% confidence interval around % who found receptionists at GP surgery helpful (+/-)
+Q5ci,95% confidence interval around % who say they can be overheard in reception area (+/-)
+Q8ci,95% confidence interval around % who say they have a preferred GP (+/-)
+Q9ci,"95% confidence interval around % who see their preferred doctor always, almost always or a lot of the time (+/-)"
+Q12ci,95% confidence interval around % who were able to get an appointment to see or speak to someone (+/-)
+Q15ci,95% confidence interval around % who found appointment convenient (+/-)
+Q18ci,95% confidence interval around % who found the overall experience of making an appointment good (+/-)
+Q21aci,95% confidence interval around % who rated the GP as good on giving enough time (+/-)
+Q21bci,95% confidence interval around % who rated the GP as good at listening to them (+/-)
+Q21cci,95% confidence interval around % who rated the GP as good at explaining tests and treatments (+/-)
+Q21dci,95% confidence interval around % who rated the GP as good at involving them in decisions about their care (+/-)
+Q21eci,95% confidence interval around % who rated the GP as good at treating them with care and concern (+/-)
+Q22ci,95% confidence interval around % who say they have confidence and trust in GP (+/-)
+Q23aci,95% confidence interval around % who rated the nurse as good on giving enough time (+/-)
+Q23bci,95% confidence interval around % who rated the nurse as good at listening to them (+/-)
+Q23cci,95% confidence interval around % who rated the nurse as good at explaining tests and treatments (+/-)
+Q23dci,95% confidence interval around % who rated the nurse as good at involving them in decisions about their care (+/-)
+Q23eci,95% confidence interval around % who rated the nurse as good at treating them with care and concern (+/-)
+Q24ci,95% confidence interval around % who say they have confidence and trust in nurse (+/-)
+Q25ci,95% confidence interval around % who say they are satisfied with opening hours (+/-)
+Q26ci,95% confidence interval around % who say their GP surgery is currently open at times that are convenient for them (+/-)
+Q28ci,95% confidence interval around % who say their overall experience of the GP surgery is good (+/-)
+Q29ci,95% confidence interval around % who say they would recommend the GP surgery to someone who has just moved to the local area (+/-)
+Q30_recoded_ci,95% confidence interval around % who say they have a long-standing health condition (+/-)
+Q32ci,95% confidence interval around % who say they have had enough support in the last 6 months from local services/organisations to help manage long-term conditions (+/-)
+Q33ci,95% confidence interval around % who say they are confident in managing their own health (+/-)
+Q35ci,95% confidence interval around % who say their activities are limited today due to recent illness or injury (+/-)
+Q36ci,95% confidence interval around % who say they know how to contact an out-of-hours GP service (+/-)
+Q37ci,95% confidence interval around % who have tried to call an out-of-hours GP service in past 6 months (+/-)
+Q38ci,95% confidence interval around % who say it was easy to contact the out-of-hours GP service by telephone (+/-)
+Q39ci,95% confidence interval around % who say the time it took to receive care from out-of-hours GP service was about right (+/-)
+Q40ci,95% confidence interval around % who say they have confidence and trust in out-of-hours clinician (+/-)
+Q41ci,95% confidence interval around % who say their overall experience of out-of-hours GP services was good (+/-)

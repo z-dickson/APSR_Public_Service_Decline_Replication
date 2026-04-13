@@ -1,0 +1,35 @@
+# ── Data files ────────────────────────────────────────────────────────────────
+# All files in data/ are distributed via Dataverse, not GitHub.
+data/
+
+# ── Raw sub-pipeline inputs ────────────────────────────────────────────────────
+# GP Patient Survey annual CSVs and intermediate panel files
+# (variable_lists/ sub-folder is tracked — it contains codebook CSVs)
+create_gp_patient_survey_panel/GP patient survey/*.csv
+
+# GP registration annual CSVs
+create_gp_practice_registrations_panel/gp practice registrations/
+
+# BES raw panel file (UK Data Service — access-restricted, too large for GitHub)
+create_BES_panel/*.tab
+
+# ── Pipeline-generated outputs ─────────────────────────────────────────────────
+output_data_for_figures/
+final_output_for_article/
+
+# ── Python artifacts ───────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+*.egg-info/
+
+# ── R artifacts ────────────────────────────────────────────────────────────────
+.Rhistory
+.RData
+.Rproj.user/
+
+# ── OS artifacts ───────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
