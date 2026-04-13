@@ -261,3 +261,10 @@ All data files are provided in the `data/` folder, except the individual surveys
 - The `gp_closures_coords.csv` file is derived from `epraccur.csv` and is included in the `data/` folder for convenience. The script `get_practice_closures.py` in the `create_gp_patient_survey_panel/` folder shows how this file was created by parsing closure dates and attaching geocodes from the ONS postcode directory.
 - The scripts for building the analysis panels (`build_bes_panel.py`, `GPPS_MAIN.py`, and `build_registrations_panel.py`) are designed to be run independently if the user only wants to reproduce one part of the analysis. However, they are also called in sequence by `code/main.py` to produce all final datasets and outputs in one run.
 - The Index of Multiple Deprivation (IMD) scores are provided at the LSOA level, but our analysis is at the MSOA/LAD level. The `IMD_panel.py` script in both the `create_gp_patient_survey_panel/` and `create_BES_panel/` folders performs interpolation to create MSOA/LAD-level IMD covariates by averaging the LSOA scores weighted by population. This allows us to include a measure of local deprivation in our models without losing observations due to missing IMD data at higher geographic levels. Note that the data saved in the `data` folder are .parquet files instead of the original formats, so the IMD interpolation step is only needed if the user wants to modify the covariate construction or use the raw IMD scores for a different analysis.
+
+
+
+
+
+
+> NOTE: Many of the data files used in the analysis (e.g. ONS data, shapefiles, etc.) can be publicly shared but will not be pushed to Github. Instead, they will be made available on the Harvard Dataverse page. 
