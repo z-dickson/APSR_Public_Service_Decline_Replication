@@ -31,6 +31,12 @@ Python 3.13+ is **not** supported — several compiled dependencies do not yet h
 
 **R packages:** R packages are checked and installed automatically the first time `main.py` is run (via `requirements.R`). This requires an internet connection on the first run. `HonestDiD` is installed from GitHub; all other packages are available on CRAN.
 
+
+
+# Quick Start
+1. Create the conda environment and install R packages as described above.
+2. Run `python code/main.py` from the root of the repository. This will execute all scripts in the replication pipeline using the pre-built data files included in the `data/` folder. If you want to build the analysis panels from raw data instead, see the instructions in the sections below and set `BUILD_FROM_RAW = True` in `code/main.py`.
+
 ---
 
 ## Repository Structure
@@ -256,7 +262,7 @@ All data files are provided in the `data/` folder, except the individual surveys
 ## Notes
 
 - The BES `bes_analysis.parquet` file is built from `create_BES_panel/build_bes_panel.py`. The raw input (`bes_panel_ukds_w1w25_v1.tab`) must be obtained from the UK Data Service (SN 8202) under a data sharing agreement, because the derived parquet contains MSOA identifiers. To obtain the raw file, register for an account with the UK Data Service and request access to the British Election Study (SN 8202).
-- **USOC analysis:** We are unable to share the Understanding Society (USOC) data or the code for the USOC analysis due to data sharing agreements with the UK Data Service. This affects the following outputs: Figure 5, Figures A7–A8, A15, A17, and Tables A7–A8. These figures and tables cannot be reproduced from the materials in this repository. Researchers who wish to replicate this part of the analysis must obtain their own access to Understanding Society (SN 6676) from the UK Data Service and contact the authors for guidance.
+- **USOC analysis:** We are unable to share the Understanding Society (USOC) data or the code for the USOC analysis due to data sharing agreements with the UK Data Service. This affects the following outputs: Figure 5, Figures A7–A8, A15, A17, and Tables A7–A8. These figures and tables cannot be reproduced from the materials in this repository. Researchers who wish to replicate this part of the analysis must obtain their own access to Understanding Society (SN 6676) from the UK Data Service at [https://datacatalogue.ukdataservice.ac.uk/studies/study/6676#details](https://datacatalogue.ukdataservice.ac.uk/studies/study/6676#details).
 - `figA2_GP_closures_choropleth.py` requires `population-count-table-data.csv` in the `data/` folder. This file can be obtained from the ONS website as linked above.
 - The `gp_closures_coords.csv` file is derived from `epraccur.csv` and is included in the `data/` folder for convenience. The script `get_practice_closures.py` in the `create_gp_patient_survey_panel/` folder shows how this file was created by parsing closure dates and attaching geocodes from the ONS postcode directory.
 - The scripts for building the analysis panels (`build_bes_panel.py`, `GPPS_MAIN.py`, and `build_registrations_panel.py`) are designed to be run independently if the user only wants to reproduce one part of the analysis. However, they are also called in sequence by `code/main.py` to produce all final datasets and outputs in one run.
@@ -265,6 +271,80 @@ All data files are provided in the `data/` folder, except the individual surveys
 
 
 
+---
+
+## Codebook
+
+Variable definitions for the three analysis-ready panel files included in `data/`. Geographic identifiers have been anonymized to sorted integers by `anonymize_data.py` (see the Scripts table above); all other values are unchanged.
+
+---
+
+### `bes_analysis.parquet` — British Election Study panel (Waves 1–25)
+
+Unit of observation: respondent–wave.
+
+| Variable | Type | Description |
+|---|---|---|
+| `id` | integer | Respondent identifier. Consistent across waves. |
+| `wave` | integer | BES wave number (1–25). Used as the time index in the matrix completion model. |
+| `year` | integer | Calendar year of the wave. Used as the time index in Sun & Abraham models. |
+| `msoa11` | integer | Anonymized MSOA 2011 identifier for the respondent's area. Used as a fixed effect. |
+| `gvar` | integer | Cohort variable: the first calendar year in which a GP practice closed within the respondent's MSOA. Respondents in MSOAs with no closure during the panel window are assigned `gvar = 10000` (never-treated). |
+| `treatment` | integer | Binary treatment indicator: 1 if the respondent's MSOA has experienced at least one GP closure by wave `t`, 0 otherwise. Used as the treatment variable in the matrix completion model. |
+| `open_after_close` | integer | Robustness flag: 1 if the respondent's MSOA had a new practice open shortly after a closure (i.e., temporary disruption). Used to construct alternative treatment assignments in the open-after-close robustness checks. |
+| `rrw_vote` | float | **Primary outcome.** Intention to vote for a right-wing/populist right party (UKIP or Reform UK). Derived from BES vote intention questions. |
+| `past_vote_rrw` | float | **Robustness outcome.** Recalled vote for a right-wing/populist right party at the most recent general election. |
+| `conservative_vote` | float | Intention to vote Conservative. Used in mainstream party robustness checks. |
+| `labour_vote` | float | Intention to vote Labour. Used in mainstream party robustness checks. |
+| `libdem_vote` | float | Intention to vote Liberal Democrat. Used in mainstream party robustness checks. |
+| `green_vote` | float | Intention to vote Green. Used in mainstream party robustness checks. |
+| `IMD_Score` | float | Index of Multiple Deprivation score for the respondent's MSOA. Higher values indicate greater deprivation. Interpolated from 2010, 2015, and 2019 LSOA-level IMD scores. |
+| `employment_rate` | float | Local authority employment rate (proportion of working-age population in employment). Source: ONS. |
+| `international_migration_per_pop` | float | Long-term international migration inflow to the local authority as a proportion of population. Source: ONS Local Area Migration Indicators. |
+| `migrant_gp_registrations_per_pop` | float | Number of new migrant GP registrations in the local authority as a proportion of population. Proxy for recent immigration pressure on local health services. Source: ONS. |
+
+---
+
+### `gp_patient_survey_panel.parquet` — GP Patient Survey panel (2012–2023)
+
+Unit of observation: GP practice–year.
+
+| Variable | Type | Description |
+|---|---|---|
+| `practice_code` | integer | Anonymized GP practice identifier. |
+| `year` | integer | Survey year (2012–2023). |
+| `oslaua` | integer | Anonymized Local Authority District (LAD) identifier. Used as a fixed effect in primary models. |
+| `msoa21` | integer | Anonymized MSOA 2021 identifier for the practice's location. Used as a fixed effect in nearest-practice robustness models. |
+| `gvar` | integer | Cohort variable: the first year in which any GP practice closed within the practice's MSOA. Practices in MSOAs with no panel-window closure are assigned `gvar = 10000` (never-treated). Used as the cohort variable in Sun & Abraham models. |
+| `gvar_nearest` | integer | Cohort variable for the nearest-practice robustness specification: the year in which the geographically nearest GP practice closed. Practices with no nearby panel-window closure are assigned `gvar_nearest = 10000` (never-treated). |
+| `treated` | integer | Binary treatment indicator: 1 if a GP practice has closed within the practice's MSOA by year `t`. |
+| `treated_nearest` | integer | Binary treatment indicator for the nearest-practice specification: 1 if the geographically nearest GP practice has closed by year `t`. |
+| `treatment` | integer | Binary treatment indicator used in the matrix completion model (equivalent to `treated`). |
+| `positive_overall_experience_with_gp_practice` | float | **Primary outcome.** Practice-level proportion of patients reporting a positive overall experience with their GP practice. Derived from the GPPS "Overall, how would you describe your experience of your GP practice?" question. |
+| `negative_overall_experience_making_an_appointment` | float | **Primary outcome.** Practice-level proportion of patients reporting a negative experience when making an appointment. Derived from the GPPS "Overall, how would you describe your experience of making an appointment?" question. |
+| `IMD_Score` | float | Index of Multiple Deprivation score for the practice's MSOA. Interpolated from 2010, 2015, and 2019 LSOA-level IMD scores. |
+| `unemployment_rate` | float | Local authority unemployment rate. Source: ONS/NOMIS modelled unemployment series. |
+| `inflow_longterm_international_migration_proportion` | float | Long-term international migration inflow to the practice's local authority as a proportion of population. Source: ONS Local Area Migration Indicators. |
+| `migrant_gp_registrations_proportion` | float | Migrant GP registrations in the practice's local authority as a proportion of all GP registrations. Source: ONS. |
+
+---
+
+### `gp_practice_registrations_panel.csv` — GP practice patient registration counts (2013–2022)
+
+Unit of observation: GP practice–year. Used to compute patient displacement figures (Figure 3).
+
+| Variable | Type | Description |
+|---|---|---|
+| `gp_practice_code` | integer | Anonymized NHS GP practice identifier. |
+| `year` | integer | Year of the registration count (2013–2022). |
+| `close_year` | integer | Year the practice closed. `NA` if the practice was still open at the end of the panel. |
+| `patients_before_close` | integer | Number of patients registered at the practice in the year immediately before closure. Used to estimate the number of patients displaced by closures. |
 
 
-> NOTE: Many of the data files used in the analysis (e.g. ONS data, shapefiles, etc.) can be publicly shared but will not be pushed to Github. Instead, they will be made available on the Harvard Dataverse page. 
+
+
+
+
+
+
+> If you have any questions about the replication materials or encounter any issues running the code, please contact the lead author, Zachary P. Dickson (https://z-dickson.github.io/)

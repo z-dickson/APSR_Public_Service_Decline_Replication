@@ -117,7 +117,7 @@ _check_requirements()
 # Set BUILD_FROM_RAW = True to rebuild all panel datasets from raw input files.
 # Leave as False to use the pre-built data files in ../data/ (default).
 
-BUILD_FROM_RAW = True  # Set to False to skip panel-building scripts and use pre-built data files
+BUILD_FROM_RAW = False  # Set to False to skip panel-building scripts and use pre-built data files
 
 _DATA_PREP = [
     # ── Data preparation (skipped when BUILD_FROM_RAW = False) ────────────────

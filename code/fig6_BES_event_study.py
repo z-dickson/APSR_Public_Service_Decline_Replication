@@ -11,6 +11,7 @@
 #   Figure A13 (Appendix J):    past vote robustness
 #   Figure A14 (Appendix K):    not-yet-treated control group robustness
 #   Figure A16 (Appendix N):    mainstream party vote intentions (no controls)
+#   Figure A17 (Appendix):      matrix completion ATT robustness
 #
 # Input (from bes_analysis.R):
 #   ../output_data_for_figures/bes_primary_m{1,2,3,4}.csv
@@ -18,6 +19,7 @@
 #   ../output_data_for_figures/bes_robust_not_yet_treated.csv
 #   ../output_data_for_figures/bes_robust_{labour,conservative,libdem,green}_vote.csv
 #   ../output_data_for_figures/bes_robust_controls_{labour,conservative,libdem,green}_vote.csv
+#   ../output_data_for_figures/bes_matrix_completion_att.csv
 #
 # Output:
 #   ../final_output_for_article/fig6_bes_event_study.png
@@ -26,6 +28,7 @@
 #   ../final_output_for_article/figA13_bes_past_vote_event_study.png
 #   ../final_output_for_article/figA14_bes_not_yet_treated_event_study.png
 #   ../final_output_for_article/figA16_bes_mainstream_parties_no_controls.png
+#   ../final_output_for_article/figA17_bes_matrix_completion_event_study.png
 
 import os
 import pandas as pd
@@ -46,6 +49,20 @@ SOURCE_ANNOTATION = (
 
 
 # ── Data loading ──────────────────────────────────────────────────────────────
+
+def load_mc_csv(filename='bes_matrix_completion_att'):
+    """Read a fect est.att CSV and return a tidy DataFrame for plotting.
+
+    Unlike load_bes_csv, no reference row is inserted at t = -1 because fect
+    estimates all pre-treatment periods rather than omitting a reference period.
+    """
+    df = pd.read_csv(os.path.join(INPUT_DIR, f'{filename}.csv'))
+    df = df.rename(columns={'Unnamed: 0': 'time'})
+    df['time']     = pd.to_numeric(df['time'])
+    df['Estimate'] = df['ATT']
+    df['CI']       = (df['CI.upper'] - df['CI.lower']) / 2
+    return df.sort_values('time').reset_index(drop=True)
+
 
 def load_bes_csv(filename):
     """Read a BES coefficient CSV and return a tidy DataFrame for plotting.
@@ -111,16 +128,18 @@ def _footnote(fig, text, y=-0.26):
 
 # ── Single event-study plot (used for Figure 6, A13, A14) ────────────────────
 
-def plot_single_event_study(df, out_name, note=None):
+def plot_single_event_study(df, out_name, note=None,
+                            xaxis_title='Years (relative to practice closure)',
+                            time_range=(-6, 6)):
     """Single event-study plot.  Used for Figure 6 (primary) and robustness figures."""
     if note is None:
         note = SOURCE_ANNOTATION
-    fig = go.Figure(_event_trace(df))
+    fig = go.Figure(_event_trace(df, time_range=time_range))
     fig.update_layout(
         font_family=FONT, font_color='black', font_size=16,
         template='presentation',
         yaxis_title='Coefficient Estimate and 95% CI',
-        xaxis_title='Years (relative to practice closure)',
+        xaxis_title=xaxis_title,
         showlegend=False,
         width=1000, height=600,
         margin=dict(l=80, r=40, t=40, b=130, pad=1),
@@ -257,6 +276,19 @@ def main():
         [load_bes_csv(f'bes_robust_{p}') for p in PARTY_ORDER],
         PARTY_LABELS,
         out_name='figA16_bes_mainstream_parties_no_controls.png',
+    )
+
+    # Figure A17: matrix completion ATT robustness
+    print('Plotting Figure A17: BES matrix completion ATT event study …')
+    plot_single_event_study(
+        load_mc_csv('bes_matrix_completion_att'),
+        'figA17_bes_matrix_completion_event_study.png',
+        note=(
+            "<i><b>Source:</b> British Election Study MSOA Data (Waves 1–25)</i><br>"
+            "<i><b>Estimator:</b> Matrix completion (Athey et al. 2021) via <i>fect</i></i>"
+        ),
+        xaxis_title='Survey waves (relative to practice closure)',
+        time_range=(-12, 12),
     )
 
     print('Done.')

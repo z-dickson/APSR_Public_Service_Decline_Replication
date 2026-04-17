@@ -30,7 +30,7 @@ library(dplyr)
 # bootstrap resampling and can take hours on large data.  All Sun & Abraham
 # event-study models are unaffected by this flag.
 
-TEST_RUN <- TRUE
+TEST_RUN <- TRUE  
 
 
 # ── Data ─────────────────────────────────────────────────────────────────────
@@ -348,9 +348,9 @@ cat("  Tables       → gpps_nearest_{positive,negative}_models.tex")
 if (!TEST_RUN) {
 
   gpps_mc_neg <- fect(
-    negative_overall_experience_making_an_appointment ~ treatment + unemployment_rate,
+    negative_overall_experience_making_an_appointment ~ treatment,
     data         = GPPS_data,
-    method       = "fe",
+    method       = "mc",
     index        = c("practice_code", "year"),
     r            = 5,
     k            = 5,
@@ -362,13 +362,13 @@ if (!TEST_RUN) {
     fill.missing = TRUE,
     se           = TRUE,
     parallel     = TRUE,
-    nboots       = 100
+    nboots       = 1000
   )
 
   gpps_mc_pos <- fect(
-    positive_overall_experience_with_gp_practice ~ treatment + unemployment_rate,
+    positive_overall_experience_with_gp_practice ~ treatment,
     data         = GPPS_data,
-    method       = "fe",
+    method       = "mc",
     index        = c("practice_code", "year"),
     r            = 5,
     k            = 5,
@@ -380,7 +380,7 @@ if (!TEST_RUN) {
     fill.missing = TRUE,
     se           = TRUE,
     parallel     = TRUE,
-    nboots       = 100
+    nboots       = 1000
   )
 
   write.csv(data.frame(gpps_mc_neg$est.att),

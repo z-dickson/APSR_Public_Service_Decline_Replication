@@ -1,19 +1,23 @@
 
 # fig_gpps_event_study.py — GPPS event-study coefficient plots
 #
-# Produces two event-study figures from the coefficient CSVs saved by
+# Produces three event-study figures from the coefficient CSVs saved by
 # gpps_analysis.R:
 #
-#   Figure I (primary):   effects of GP practice closure (gvar, LAD FE)
-#   Figure II (robustness): nearest-practice treatment (gvar_nearest, MSOA FE)
+#   Figure I (primary):      effects of GP practice closure (gvar, LAD FE)
+#   Figure II (robustness):  nearest-practice treatment (gvar_nearest, MSOA FE)
+#   Figure III (robustness): matrix completion ATT (Athey et al. 2021)
 #
 # Input:
-#   ../processed_data/gpps_coefficient_estimates.csv
-#   ../processed_data/gpps_nearest_coefficient_estimates.csv
+#   ../output_data_for_figures/gpps_coefficient_estimates.csv
+#   ../output_data_for_figures/gpps_nearest_coefficient_estimates.csv
+#   ../output_data_for_figures/gpps_negative_mc_att.csv
+#   ../output_data_for_figures/gpps_positive_mc_att.csv
 #
 # Output:
 #   ../final_output_for_article/fig4_gpps_coefficient_estimates.png
 #   ../final_output_for_article/figA6_gpps_nearest_coefficient_estimates.png
+#   ../final_output_for_article/figA7_gpps_mc_att_estimates.png
 
 import os
 import pandas as pd
@@ -60,9 +64,30 @@ def clean_gpps_data(filename='gpps_coefficient_estimates'):
     return x
 
 
+def clean_mc_data():
+    """Read the two fect est.att CSVs and return a tidy DataFrame for plotting."""
+    neg = pd.read_csv(os.path.join(INPUT_DIR, 'gpps_negative_mc_att.csv'))
+    pos = pd.read_csv(os.path.join(INPUT_DIR, 'gpps_positive_mc_att.csv'))
+
+    for df in [neg, pos]:
+        df['time'] = pd.to_numeric(df['Unnamed: 0'])
+        df.drop(columns='Unnamed: 0', inplace=True)
+        df['Estimate'] = df['ATT']
+        df['CI'] = (df['CI.upper'] - df['CI.lower']) / 2
+        df['upper_bound'] = df['CI.upper']
+        df['lower_bound'] = df['CI.lower']
+
+    neg['model'] = 'Negative Experience'
+    pos['model'] = 'Positive Experience'
+
+    x = pd.concat([neg, pos])
+    x = x.loc[(x['time'] > -7) & (x['time'] < 9)]
+    return x
+
+
 # ── Plotting ──────────────────────────────────────────────────────────────────
 
-def plot_gpps_event_study(x, annotation_text, fig_name):
+def plot_gpps_event_study(x, annotation_text, fig_name, yrange=(-0.03, 0.03)):
     """Create and save a two-series event-study plot."""
     models  = ['Positive Experience', 'Negative Experience']
     labels  = ['<b>Positive</b> Overall Experience<br>', '<b>Negative</b> Experience Making an Appointment<br>']
@@ -106,7 +131,10 @@ def plot_gpps_event_study(x, annotation_text, fig_name):
 
     fig.add_vline(x=-1, line_width=1, line_dash='dash', line_color='black')
     fig.update_xaxes(showline=False, mirror=True, zeroline=False, showgrid=False)
-    fig.update_yaxes(tickformat='.3f', range=[-0.03, 0.03])
+    yaxes_kwargs = dict(tickformat='.3f')
+    if yrange is not None:
+        yaxes_kwargs['range'] = list(yrange)
+    fig.update_yaxes(**yaxes_kwargs)
 
     fig.add_shape(type='rect', xref='paper', yref='paper',
                   x0=0, y0=0, x1=1.0, y1=1.0,
@@ -147,6 +175,15 @@ def main():
     )
     x = clean_gpps_data('gpps_nearest_coefficient_estimates')
     plot_gpps_event_study(x, annotation_nearest, 'figA6_gpps_nearest_coefficient_estimates')
+
+    # Matrix completion robustness figure
+    print("Plotting matrix completion ATT event-study figure …")
+    annotation_mc = (
+        annotation_base
+        + "<br>Matrix completion estimator (Athey et al. 2021) via <i>fect</i>."
+    )
+    x_mc = clean_mc_data()
+    plot_gpps_event_study(x_mc, annotation_mc, 'figA7_gpps_mc_att_estimates', yrange=None)
 
     print("Done.")
 
